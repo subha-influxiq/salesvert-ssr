@@ -11,9 +11,9 @@ export class PlatformFeaturesComponent implements OnInit {
   constructor(private readonly meta: MetaService) { }
 
   ngOnInit() {
-    this.meta.setTitle('Selsvert | Features');
-    this.meta.setTag('og:description', 'Selsvert | Features');
-    this.meta.setTag('og:title', 'Selsvert | Features');
+    this.meta.setTitle('Salesvert | Features');
+    this.meta.setTag('og:description', 'Salesvert | Features');
+    this.meta.setTag('og:title', 'Salesvert | Features');
     this.meta.setTag('og:type', 'website');
     this.meta.setTag('og:image', '../../assets/images/sv_logo.png');
   }

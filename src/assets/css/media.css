@@ -116,8 +116,7 @@
 .team_inner_wrapper .top_left, .team_inner_wrapper .bottom_right  { display: none;}
 .team_inner_wrapper .inner_wrap { width: 380px; margin: 1%; }
 .team_inner_wrapper .mat-card-content:first-child { margin-top: 1%!important; }
-.inner_banner.contactusbannerbg.generalcls[_ngcontent-serverApp-c7] .mat-card-title[_ngcontent-serverApp-c7] {
-    color: #31282f; font-size: 90px !important;
+
 }
 
 @media only screen and (max-width: 1420px) {

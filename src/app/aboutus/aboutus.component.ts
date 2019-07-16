@@ -9,9 +9,9 @@ import { MetaService } from '@ngx-meta/core';
 export class AboutusComponent implements OnInit {
 
   constructor(private readonly meta: MetaService) {
-    this.meta.setTitle('Selsvert | About');
-    this.meta.setTag('og:description', 'Selsvert | About');
-    this.meta.setTag('og:title', 'Selsvert | About');
+    this.meta.setTitle('Salesvert | About');
+    this.meta.setTag('og:description', 'Salesvert | About');
+    this.meta.setTag('og:title', 'Salesvert | About');
     this.meta.setTag('og:type', 'website');
     this.meta.setTag('og:image', '../../assets/images/sv_logo.png');
   }
