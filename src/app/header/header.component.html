@@ -1,0 +1,25 @@
+<mat-card class="header_top">
+
+  <mat-card-subtitle class="header_top_wrapper">
+
+    <mat-card-content class="header_top_left"><img src="../../assets/images/sv_logo.png"></mat-card-content>
+
+    <mat-card-content class="top_menu">
+
+
+      <label for="show-mainmenu" class="show-menu"><i class="material-icons">dehaze</i></label>
+      <input type="checkbox" id="show-mainmenu" role="button">
+      <ul class="mainmenu">
+        <li><button mat-menu-item base  [routerLink]="['/']">Home</button></li>
+        <li ><button mat-menu-item base  [routerLink]="['/platform-features']">Platform Features </button></li>
+        <li ><button mat-menu-item base  [routerLink]="['/ourteam']">Our Team</button></li>
+        <li ><button mat-menu-item base  [routerLink]="['/contactus']">Contact Us</button></li>
+      </ul>
+    </mat-card-content>
+
+    <div class="clear"></div>
+
+
+  </mat-card-subtitle>
+
+</mat-card>
