@@ -53,7 +53,7 @@
 .platformfeatures_block6 .parent {display: flex;flex-direction: row;align-items: center;justify-content: space-between;}
 .platformfeatures_block6_content:nth-child(odd) .parent .child:nth-child(2) img {height: 100%}
 .platformfeatures_block6_content:nth-child(even) .parent .child:nth-child(2) img {height: 100%}
-@media only screen and (max-width: 1910px) {.platformfeatures_block2.generalcls .mat-card-title {font-size: 28px!important;line-height: 30px!important}
+@media only screen and (max-width: 1910px) {.platformfeatures_block2.generalcls .mat-card-title {font-size: 28px!important;line-height: 30px!important; width: auto; }
 }
 @media only screen and (max-width: 1800px) {.platformfeatures_block5_content:nth-child(odd) .parent .child:nth-child(2) img {margin-left: -4%;}
     .platformfeatures_block5_content:nth-child(even) .parent .child:nth-child(2) img {margin-right: -6%;}
@@ -90,8 +90,9 @@
     .platformfeatures_block5_bottom {margin-top: -4%;}
 }
 
-@media only screen and (max-width: 1199px) {.generalcls .platformfeatures_block4_bottom .mat-list {padding: 10px 10px 15px;}.ptb-67 {padding-top: 20px!important;padding-bottom: 20px!important;}
-    .inner_banner.generalcls p {width: 100%;}
+@media only screen and (max-width: 1199px) {
+    .generalcls .platformfeatures_block4_bottom .mat-list {padding: 10px 10px 15px;}.ptb-67 {padding-top: 20px!important;padding-bottom: 20px!important;}
+    .inner_banner.generalcls p {width: 100%; line-height: 28px!important; }
     .platformfeatures_block6.generalcls .mat-card-title:nth-child(1) {margin-top: 0px !important;}
     .platformfeatures_block5_content:nth-child(odd) .parent .child:nth-child(2) img {margin-left: 0;float: left;width: 100%;}
     .platformfeatures_block6_content:nth-child(even) .parent .child:nth-child(2) img {margin-right: 0%;float: none;WIDTH: 100%;}
@@ -112,7 +113,30 @@
     .platformfeatures_block7_content:nth-child(odd) .parent .child:nth-child(2) {-webkit-box-ordinal-group: 3;order: 2;flex-basis: 100%;}
     .platformfeatures_block5_content {margin-top: 0;}
     .platformfeatures_block4 .parent .mat-list {text-align: left;}
+    .platformfeatures_block4[_ngcontent-serverApp-c1] p[_ngcontent-serverApp-c1] {
+        padding: 15px;
+    }
 }
 @media only screen and (max-width: 767px) {.platformfeatures_block5_bottom .parent .child {width: 88%;display: block;padding: 20px;margin: 0 auto;}
-    .inner_banner.generalcls .mat-card-title {font-size: 34px !important;margin-bottom: 10px !important;}
+    .inner_banner.generalcls .mat-card-title {font-size: 34px !important;margin-bottom: 10px !important;  line-height: 34px!important;}
+    .platformfeatures_block3.generalcls[_ngcontent-serverApp-c1] .mat-card-title[_ngcontent-serverApp-c1],
+    .generalcls .mat-card-content .parent .child .mat-card-title, 
+    .generalcls .platformfeatures_block7_bottom .mat-card-title,
+    .generalcls .mat-card-title.sectionheader {
+        width: auto;
+    } 
+}
+@media only screen and (max-width: 400px) {
+    .inner_banner.generalcls[_ngcontent-serverApp-c1] .mat-card-title[_ngcontent-serverApp-c1] { font-size: 30px !important; }
+    .platformfeatures_block3.generalcls[_ngcontent-serverApp-c1] .mat-card-title[_ngcontent-serverApp-c1] {
+        font-size: 30px!important; 
+    }
+    .platformfeatures_block3[_ngcontent-serverApp-c1] {
+        background: none;
+        background-color: #f3bc85!important;
+        position: relative;
+    }
+}
+@media only screen and (max-width:360px) {
+    .inner_banner.generalcls[_ngcontent-serverApp-c1] .mat-card-title[_ngcontent-serverApp-c1] { font-size: 28px !important; }
 }

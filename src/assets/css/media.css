@@ -408,6 +408,7 @@
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-heading { font-size: 20px; }
     .contact_wrapper { padding: 15px; }
     .home_block5 .mat-card-content h4 { width: 290px; height: 290px; }
+    
 }
 @media only screen and (max-width: 320px) {
 .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .caption .caption_para { font-size: 16px; }
