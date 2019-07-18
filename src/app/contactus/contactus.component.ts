@@ -55,7 +55,27 @@ getState() {
   return result;
 }
 doSubmit(){
-  console.log(this.myform.value)
+  console.log(this.myform.value);
+  if (this.myform.valid) {
+    let link = 'http://166.62.39.137:5001/salesvertcontactusdetails';
+    // let link = '';
+    let data = {data: this.myform.value};
+    this.http.post(link, data)
+        .subscribe(res => {
+
+          let result: any = {};
+          result = res;
+          console.log(result);
+          if (result.status == 'success') {
+
+            this.myform.reset();
+            // this.successmodal = true;
+            setTimeout(()=>{
+
+            },2000);
+         }
+       })
+    }
 }
 inputUntouch(form: any, val: any) {
   console.log('on blur .....');

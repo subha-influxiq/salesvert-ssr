@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { HttpClient} from '@angular/common/http';
 import { from } from 'rxjs';
 @Component({
   selector: 'app-footer',
@@ -10,9 +11,9 @@ export class FooterComponent implements OnInit {
 
   public subscribeForm: FormGroup;
 
-  constructor( public fb: FormBuilder) {
+  constructor( public fb: FormBuilder, public http: HttpClient) {
     this.subscribeForm = this.fb.group({
-       fullName:['', Validators.required],
+        name:['', Validators.required],
        email: ['', Validators.compose([Validators.required, Validators.pattern(/^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/)])],
        phone: ['', Validators.compose([Validators.required, Validators.pattern(/[0-9\+\-\ ]/)])],
        message: ['', Validators.required]
@@ -24,6 +25,31 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
   doSubmit(){
-    console.log(this.subscribeForm.value)
+    console.log(this.subscribeForm.value);
+    for (let i in this.subscribeForm.controls) {
+      this.subscribeForm.controls[i].markAsTouched();
+    }
+    if (this.subscribeForm.valid) {
+      let link = 'http://166.62.39.137:5001/salesverthomedetails';
+      // let link = '';
+      let data = {data: this.subscribeForm.value};
+      this.http.post(link, data)
+          .subscribe(res => {
+  
+            let result: any = {};
+            result = res;
+            console.log(result);
+            if (result.status == 'success') {
+  
+              this.subscribeForm.reset();
+              // this.successmodal = true;
+              setTimeout(()=>{
+  
+              },2000);
+           }
+         })
+      }
   }
+
+  
 }

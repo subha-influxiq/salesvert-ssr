@@ -28,7 +28,7 @@
     <mat-card-subtitle>
       <form [formGroup]="subscribeForm" (submit)="doSubmit()">
         <mat-form-field>
-          <input matInput placeholder="Full Name" [formControl]="subscribeForm.controls['fullName']">
+          <input matInput placeholder="Full Name" [formControl]="subscribeForm.controls['name']">
           <!-- <mat-error *ngIf="!subscribeForm.controls['fullName'].valid && subscribeForm.controls['fullName'].touched" class="errortext">First Name is required</mat-error> -->
         </mat-form-field>
         <mat-form-field>
