@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MetaModule } from '@ngx-meta/core';
 import { DemoMaterialModule} from '../app/material-module';
-
+import { HttpClientModule } from '@angular/common/http';
 
 /* Page component */
 import { AboutusComponent } from './aboutus/aboutus.component';
@@ -40,7 +40,8 @@ import { ContactusComponent } from './contactus/contactus.component'
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

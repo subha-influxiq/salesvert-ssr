@@ -1,3 +1,53 @@
+<mat-card class="home_block_new">
+  <mat-card-content class="home_block_new_div2">
+    <mat-card-content class="home_block_new_wrapper">
+      <mat-card-content class="home_block_new_textcontain">
+        <h2>Our funnel system developers and designers are some of the best in the industry. Click
+          here now to go see a list of our most
+          successful models</h2>
+        <a href="javascript:void(0)" class="home_blocknewlink">LEARN MORE</a>
+      </mat-card-content>
+    </mat-card-content>
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="home_block5">
+  <mat-card-content>
+    <h2>The smarter, better, and faster way to close deals.<br />
+      Talk to one of our professional<br />
+      sales manager now. </h2>
+    <h4>
+      <label>
+        Sales Department<br />
+        ​208-502-3040 ext 702<br />
+        sales@salesvert.com
+      </label>
+    </h4>
+  </mat-card-content>
+  <mat-card class="home_block5_form">
+    <mat-card-subtitle>
+      <form [formGroup]="subscribeForm" (submit)="doSubmit()">
+        <mat-form-field>
+          <input matInput placeholder="Full Name" [formControl]="subscribeForm.controls['fullName']">
+          <!-- <mat-error *ngIf="!subscribeForm.controls['fullName'].valid && subscribeForm.controls['fullName'].touched" class="errortext">First Name is required</mat-error> -->
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Email Address" [formControl]="subscribeForm.controls['email']">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Phone Number" [formControl]="subscribeForm.controls['phone']">
+        </mat-form-field>
+        <mat-form-field>
+          <textarea matInput placeholder="Message" [formControl]="subscribeForm.controls['message']" ></textarea>
+        </mat-form-field>
+        <button mat-button class="homesubbtn">Submit</button>
+        <div class="clear"></div>
+      </form>
+    </mat-card-subtitle>
+  </mat-card>
+</mat-card>
+
+
 <mat-card-footer class="mainfooter">
 
   <mat-card-content class="mainfooter_wrapper">
@@ -17,10 +67,10 @@
       <mat-card-subtitle class="mainfooter_block1_con2">
         <ul>
 
-        <li ><button mat-menu-item base  [routerLink]="['/']">Home</button></li>
-        <li ><button mat-menu-item base  [routerLink]="['/platform-features']">Platform Features </button></li>
-        <li ><button mat-menu-item base  [routerLink]="['/']">Our Team</button></li>
-        <li ><button mat-menu-item base  [routerLink]="['/contactus']">Contact Us</button></li>
+          <li><button mat-menu-item base [routerLink]="['/']">Home</button></li>
+          <li><button mat-menu-item base [routerLink]="['/platform-features']">Platform Features </button></li>
+          <li><button mat-menu-item base [routerLink]="['/']">Our Team</button></li>
+          <li><button mat-menu-item base [routerLink]="['/contactus']">Contact Us</button></li>
         </ul>
 
       </mat-card-subtitle>
@@ -28,7 +78,8 @@
 
         <h3>customer service <a href="tel:(+000) 000-000-000">(+000) 000-000-000</a></h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, </p>
       </mat-card-subtitle>
 
 
@@ -37,7 +88,7 @@
 
     <mat-card-content class="mainfooter_block2">
 
-<p>&copy; 2019, SalesVert. All Rights Reserved.</p>
+      <p>&copy; 2019, SalesVert. All Rights Reserved.</p>
 
     </mat-card-content>
 
