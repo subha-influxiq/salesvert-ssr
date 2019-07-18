@@ -304,7 +304,7 @@
     .contactusbannerbg { min-height: inherit; background-size: 175% !important; background-position: 100% top!important; padding-top: 45%!important; background-color:#f3d7bf!important; }
     .inner_banner_content { padding-left: 0; width:auto; padding: 15px; }
     .generalcls .inner_banner_content.mat-card-content .mat-card-title { margin-bottom: 0px !important; }
-    .inner_banner.contactusbannerbg.generalcls .mat-card-title {  padding-top: 0%!important; }
+    .contactusbannerbg .maincontentwrapper .inner_banner_content { padding-top: 2%!important; }
 }
 
 @media only screen and (max-width: 1140px) {

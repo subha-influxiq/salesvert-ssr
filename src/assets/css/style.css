@@ -458,7 +458,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 }
 
 
-
+.contactusbannerbg .maincontentwrapper .inner_banner_content { padding-top: 12%!important; }
 
 
 /*---koushik css start--*/
@@ -639,7 +639,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     .contact_wrapper  .mat-input-element {caret-color: #000; height: 40px; font-family: 'MontserratRegular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
     .contact_wrapper  .mat-form-field-infix{ height: 48px; padding: 5px 10px; border-top: 0px!important; border: solid 1px #cfd1d3!important; background: #fff;}
     .contact_wrapper .mat-form-field-appearance-legacy .mat-form-field-label {top: 28px;padding: 0 10px;  font-size: 16px; color: #000000;text-transform: initial;}
-    .inner_banner.contactusbannerbg.generalcls .mat-card-title {  padding-top: 15%!important; }
+     
     .mat-error {color: #f44336;font-size: 12px;}    
     .commentsubtitle .mat-form-field-appearance-legacy .mat-form-field-infix{ height: 160px!important;}
     .contact_wrapper .area .mat-form-field-infix { height: 160px!important;}
