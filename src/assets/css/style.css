@@ -652,6 +652,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     .contact_wrapper .lowerBg2{ position: absolute; top: 0; right: 0; }
     .contact_wrapper .mat-select-trigger { padding-top: 15px; }
 
+    .active{color:#dfb183!important; }
     /* end blok */
 /*Subrata END css*/
  
