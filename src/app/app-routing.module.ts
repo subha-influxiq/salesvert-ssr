@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PlatformFeaturesComponent } from './platform-features/platform-features.component';
 import { OurteamComponent } from "./ourteam/ourteam.component";
 import { ContactusComponent } from "./contactus/contactus.component";
+import { FunnelComponent } from './funnel/funnel.component';
 
 const appRoutes: Routes = [
     { path: 'about', component: AboutusComponent,data: { meta: { title: 'About US', description: 'Have you seen my rubber duckie?' } } },
@@ -25,6 +26,7 @@ const appRoutes: Routes = [
     { path: 'platform-features', component: PlatformFeaturesComponent},
     { path: 'ourteam', component: OurteamComponent},
     { path: 'contactus', component: ContactusComponent},
+    { path: 'funnel', component: FunnelComponent}
 ];
 
 @NgModule({

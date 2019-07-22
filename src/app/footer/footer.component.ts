@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { HttpClient} from '@angular/common/http';
+import { Router, NavigationEnd } from '@angular/router';
 import { from } from 'rxjs';
 @Component({
   selector: 'app-footer',
@@ -11,7 +12,7 @@ export class FooterComponent implements OnInit {
 
   public subscribeForm: FormGroup;
 
-  constructor( public fb: FormBuilder, public http: HttpClient) {
+  constructor( public fb: FormBuilder, public http: HttpClient, private router: Router) {
     this.subscribeForm = this.fb.group({
         name:['', Validators.required],
        email: ['', Validators.compose([Validators.required, Validators.pattern(/^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/)])],
@@ -23,6 +24,12 @@ export class FooterComponent implements OnInit {
    }
 
   ngOnInit() {
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+          return;
+      }
+      window.scrollTo(0, 0)
+  });
   }
   doSubmit(){
     console.log(this.subscribeForm.value);

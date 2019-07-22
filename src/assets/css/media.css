@@ -22,35 +22,21 @@
 }
 
 @media only screen and (max-width: 1660px) {
-    .home_block3 {
-        padding: 0 590px 0 30px!important;
-
-        background-position: 122% top !important;
-    }
-
+    .home_block3 { padding: 0 590px 0 30px!important; background-position: 122% top !important; }
     .home_block5 .mat-card-content h2 { font-size: 26px;}
-
     .home_block_new_textcontain h2:before { height: 70%;}
+    .topBanner { background-position: 70% center!important; }
 
     }
-
 
 @media only screen and (max-width: 1620px) {
 
-    .home_block4 .mat-card-content {
-        width: 1300px;}
-
+    .home_block4 .mat-card-content { width: 1300px;}
     .home_block4 .mat-card-content ul li strong{ font-size: 17px;}
-
+    .home_block4 .mat-card-content ul li{ height: 275px;}
     .home_block4 .mat-card-content ul li span{ margin: 6px 12px;}
-
     .home_block_new_wrapper{ width: 1300px;}
-
-    .home_block_new_textcontain {
-        width: 790px;
-    }
-
-
+    .home_block_new_textcontain { width: 790px; }
     .home_block_new_textcontain h2 {font-size: 38px; line-height: 48px;  }
 }
 
@@ -67,24 +53,22 @@
     .blok2_sub .items { width: 26%; }
     .blok2_sub .items { width: 30%;}
     .blok2_sub .items:last-child { width: 40%; }
+    .funnelblk1 .fn_inner_wrapper { width: 95%; }
 }
 
  
+@media only screen and (max-width: 1570px) {
+    .topBanner .content { width: 700px; }
+    .topBanner .content .sub_header { font-size: 24px; }
+    .topBanner .content .mainTitle { font-size: 175px; }
+}
 @media only screen and (max-width: 1550px) {
     .s_ourteamblk-1 { background-position: 45% center!important; }
     .s_ourteamblk-1 .s_blk-1_inner_wrapper { left: 27%; }
-.s_ourteamblk-1 {
-    background-position: 45% center!important;
-}
+    .s_ourteamblk-1 { background-position: 45% center!important; }
     .home_block5{ background-position: -170px bottom!important; padding: 0px 530px 0px 410px!important;}
-
     .home_block5_form{ right: 40px!important;}
-
-
-    .home_block3 {
-        padding: 0 520px 0 30px!important;
-        background-position: 132% top !important;
-    }
+    .home_block3 { padding: 0 520px 0 30px!important; background-position: 132% top !important; }
 }
 
 
@@ -98,6 +82,7 @@
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 60%; }
     .s_ourteamblk-2 .blok2_inner_wrapper { width: 1300px; }
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper { width: 433px; height: 410px; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { width: 26.7%; }
 }
 
 
@@ -124,6 +109,7 @@
     .s_ourteamblk-1 .s_blk-1_inner_wrapper { left: 27%; width: 585px; }
     .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_heading { font-size: 90px; }
     .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_para { font-size: 24px; line-height: 30px; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { width: 26%; }
 }
 
 @media only screen and (max-width: 1380px) {
@@ -131,9 +117,7 @@
 }
 
 @media only screen and (max-width: 1366px) {
-    .home_block4 .mat-card-content ul li span {
-        margin: 6px 2px;
-    }
+    .home_block4 .mat-card-content ul li span {margin: 6px 2px;}
     .s_ourteamblk-2 .blok2_inner_wrapper { width: 1240px; }
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-para { line-height: 24px; padding: 25px; }
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 62%; }
@@ -142,11 +126,16 @@
 @media only screen and (max-width: 1360px) {
     .home_block5 { background-position: -210px bottom!important; padding: 0px 510px 0px 360px!important; }
     .home_block5 .mat-card-content h2 { font-size: 28px;}
+    
     }
 
 @media only screen and (max-width: 1350px) {
     .pic-wrapper .figure1 { background-position: -140px top!important; }
     .home_block3 { padding: 0 400px 0 20px!important; background-position: 178% top !important; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { width: 24%; }
+    .topBanner .content .header {  font-size: 40px; }
+    .topBanner .content .mainTitle { font-size: 168px; }
+    .topBanner { background-position: 65% center!important; }
 }
 
 
@@ -165,6 +154,7 @@
     .team_inner_wrapper .inner_wrap .mat-card-title { font-size: 24px; }
     .team_inner_wrapper .inner_wrap .mat-card-subtitle { font-size: 18px;}
     .inner_banner_content { padding-left: 23px; width: 60%; }
+    .funnelblk1 .fn_inner_wrapper .inner_item .action_button { font-size: 20px;} 
 }
 
 @media only screen and (max-width: 1300px) {
@@ -191,7 +181,7 @@
 @media only screen and (max-width: 1240px) {
     .s_ourteamblk-2 .blok2_inner_wrapper { width: 1130px; }
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper { width: 405px; height: 380px; }
-    
+    .topBanner .content { left: 32%; }
 }
 @media only screen and (max-width: 1199px) {
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { text-align: center; }
@@ -213,12 +203,11 @@
     .home_block4 .mat-card-content{padding: 40px 0 45px 0;}
     .home_block5 { background-position: left bottom!important; box-shadow: none!important; height: auto; padding: 30px 15px 67% 15px!important; background-size: 120%!important; }
     .home_block5_form { position: inherit!important; right: 0px!important; top:0px!important; width: auto!important; margin-top: 30px; }
-    .home_block5 .mat-card-content { width: 100%; display: block; text-align: center; ertical-align: middle; height: auto; }
+    .home_block5 .mat-card-content { width: 100%; display: block; text-align: center; vertical-align: middle; height: auto; }
     .home_block4 .mat-card-content { width: 90%; }
     .home_block4 .mat-card-content ul li strong { font-size: 20px; padding-top: 75px; }
     .home_block4 .mat-card-content h2 br{ display: none;}
-    .home_block4 .mat-card-content ul li { height: auto; width: 100%; float: none; display: block; padding-bottom: 25px; position: relative;     margin-bottom: 35px
-    }
+    .home_block4 .mat-card-content ul li { height: auto; width: 100%; float: none; display: block; padding-bottom: 25px; position: relative; margin-bottom: 35px;}
 
     .home_block4 .mat-card-content ul li:last-of-type{ margin-bottom: 0px;}
 
@@ -306,10 +295,30 @@
     .inner_banner_content { padding-left: 0; width:auto; padding: 15px; }
     .generalcls .inner_banner_content.mat-card-content .mat-card-title { margin-bottom: 0px !important; }
     .contactusbannerbg .maincontentwrapper .inner_banner_content { padding-top: 2%!important; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { margin-bottom: 20px!important; }
+    .topBanner {
+        background-position: 100% top!important;
+        min-height: inherit;
+        padding: 30px!important;
+        padding-top: 56%!important;
+        background-size: 202%!important;
+        background-color: #e6d2ba!important;
+        text-align: center;
+    }
+    .topBanner .content {
+        position: inherit;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        transform: inherit;
+    }
+    .topBanner .content .action { margin-top: 23px;}
 }
 
 @media only screen and (max-width: 1140px) {
     .team_inner_wrapper .inner_wrap { width: 28%; padding: 15px; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { width: 37%; }
 }
 @media only screen and (max-width: 991px) {
     .blok2_sub .items { width: 100%; text-align: center; height: auto!important; height: 36px!important; }
@@ -346,6 +355,10 @@
 .contact_wrapper { width: auto; }
 }
 
+@media only screen and (max-width: 740px) {
+    .funnelblk1 .fn_inner_wrapper .inner_item { width: 61%; }
+    .funnelblk1 .fn_inner_wrapper { width: auto; }
+}
 @media only screen and (max-width: 700px) {
     .team_inner_wrapper .inner_wrap .mat-card-title { font-size: 18px; }
 }
@@ -391,7 +404,11 @@
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .caption .caption_para { font-size: 22px; }
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-para { padding: 25px 10px; }
     .contact_wrapper { padding: 25px; }
-     
+    .topBanner .content .action { width: auto; word-break: break-all; white-space: normal; }
+    .topBanner .content .header { font-size: 36px; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { width: 80%; }
+    .funnelblk1 .fn_inner_wrapper .inner_item { margin-bottom: 0px!important; }
+    .topBanner .content .action { line-height: 22px; }
 }
 @media only screen and (max-width: 400px) {
 .inner_banner.contactusbannerbg.generalcls .mat-card-title {
@@ -409,8 +426,15 @@
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-heading { font-size: 20px; }
     .contact_wrapper { padding: 15px; }
     .home_block5 .mat-card-content h4 { width: 290px; height: 290px; }
+    .funnelblk1 .fn_inner_wrapper { width: auto; margin: 0!important; }
+    .funnelblk1 .fn_inner_wrapper { padding: 0px; }
+    .funnelblk1 .fn_inner_wrapper .inner_item .action_button { font-size: 16px; }
+    .topBanner { padding: 15px!important; padding-top: 56%!important; }
+    .topBanner .content .mainTitle { font-size: 130px; line-height: 140px; }
+    .topBanner .content .action a { font-size: 17px;  padding: 5 20!important; }
     
 }
-@media only screen and (max-width: 320px) {
-.s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .caption .caption_para { font-size: 16px; }
+@media only screen and (max-width: 320px){
+.funnelblk1 .fn_inner_wrapper .inner_item { width: 90%; }
+.funnelblk1 .fn_inner_wrapper .inner_item { padding: 20px; }
 }

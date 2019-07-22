@@ -16,8 +16,10 @@ import { FooterComponent } from './footer/footer.component';
 import { ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { PlatformFeaturesComponent } from './platform-features/platform-features.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
-import { ContactusComponent } from './contactus/contactus.component'
-
+import { ContactusComponent } from './contactus/contactus.component'; 
+import { FunnelComponent } from './funnel/funnel.component'
+import { RouterModule } from '@angular/router';
+import { ReadmoreComponent } from './readmore/readmore.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +31,13 @@ import { ContactusComponent } from './contactus/contactus.component'
     FooterComponent,
     PlatformFeaturesComponent,
     OurteamComponent,
-    ContactusComponent
+    ContactusComponent, 
+    FunnelComponent, ReadmoreComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,MetaModule.forRoot(),
-
+    RouterModule,
     DemoMaterialModule,
     BrowserModule,
     AppRoutingModule,
