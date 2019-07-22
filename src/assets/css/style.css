@@ -121,9 +121,7 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 
 /*Create a horizontal list with spacing*/
 .top_menu li {
-    display:inline-block;
-    float: left; margin: 0px 15px; padding: 0px; font-family: 'MontserratMedium';
-
+    display:inline-block; float: none; margin: 0px 15px; padding: 0px; font-family: 'MontserratMedium';
 }
 
 
@@ -150,10 +148,9 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 
 /*Style 'show menu' label button and hide it by default*/
 .top_menu .show-menu {
-
     text-decoration: none;
     color: #fff;
-   /* background: #06771f;*/
+/* background: #06771f;*/
     text-align: center;
     display: none;
 }
@@ -337,13 +334,32 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .home_block4 .mat-card-content h2{ margin: 0; padding: 0; text-align: center; font-size: 30px; color: #2a3d48; font-family: 'MontserratBold'; line-height: 40px;}
 
 
-.home_block4 .mat-card-content ul{ margin: 0; padding: 0; clear: both; overflow: hidden; margin-top: 30px;}
+.home_block4 .mat-card-content ul{
+    margin: 0;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
-.home_block4 .mat-card-content ul li{ list-style: none; float: left; width: 19.8%; margin: 0 0.05%; background: #fff; margin-top: 60px; height: 225px; border-radius: 5px;}
+.home_block4 .mat-card-content ul li{
+    list-style: none;
+    float: left;
+    width: 15%;
+    margin: 0 0.05%;
+    background: #fff;
+    margin-top: 60px;
+    border-radius: 5px;
+    padding: 0.5%;
+}
 
 .home_block4 .mat-card-content ul li img{ display: block; margin: 0 auto; margin-top: -66px;}
 
-.home_block4 .mat-card-content ul li strong{ display: block; text-align: center; padding: 16px 12px 14px 12px; font-size: 20px; color: #333232; font-family: 'MontserratMedium';}
+.home_block4 .mat-card-content ul li strong{ display: block; text-align: center; padding: 16px 5px 14px 5px; font-size: 18px; color: #333232; font-family: 'MontserratMedium';}
 
 .home_block4 .mat-card-content ul li span{ display: block; margin: 4px 12px; font-size: 14px; color: #4b4c4c; font-family: 'MontserratMedium'; background: url("../images/home_block4_libg.png") no-repeat left 4px; padding: 0 0 0 24px;}
 
