@@ -33,7 +33,6 @@
 
     .home_block4 .mat-card-content { width: 1300px;}
     .home_block4 .mat-card-content ul li strong{ font-size: 17px;}
-    .home_block4 .mat-card-content ul li{ height: 275px;}
     .home_block4 .mat-card-content ul li span{ margin: 6px 12px;}
     .home_block_new_wrapper{ width: 1300px;}
     .home_block_new_textcontain { width: 790px; }
@@ -82,7 +81,6 @@
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 60%; }
     .s_ourteamblk-2 .blok2_inner_wrapper { width: 1300px; }
     .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper { width: 433px; height: 410px; }
-    .funnelblk1 .fn_inner_wrapper .inner_item { width: 26.7%; }
 }
 
 
@@ -109,7 +107,6 @@
     .s_ourteamblk-1 .s_blk-1_inner_wrapper { left: 27%; width: 585px; }
     .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_heading { font-size: 90px; }
     .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_para { font-size: 24px; line-height: 30px; }
-    .funnelblk1 .fn_inner_wrapper .inner_item { width: 26%; }
 }
 
 @media only screen and (max-width: 1380px) {
