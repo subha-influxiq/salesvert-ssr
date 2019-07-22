@@ -682,7 +682,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     .topBanner .content .action a{ color: #2a3d48; text-decoration: none;}
     .funnelblk1 { border-radius: 0!important; box-shadow: none!important; background-image: linear-gradient(to right bottom, #f6efe8, #f8efe7, #faefe5, #fbf0e4, #fdf0e2, #feefe0, #feefdf, #ffeedd, #ffedda, #ffecd8, #ffead5, #ffe9d3)!important; }
     .funnelblk1 .fn_inner_wrapper{ width: 1490px; margin: 50px auto!important; display: flex; justify-content: center; flex-wrap: wrap; background: #eabf8e; padding: 30px 18px; }
-    .funnelblk1 .fn_inner_wrapper .inner_item{ width: 27%; display: flex; justify-content: center; flex-direction: column; align-items: center;  background: #fff; padding: 25px; margin: 18px; border-radius: 2px; box-shadow: 0px 1px 1px 1px #bbbbbb; }
+    .funnelblk1 .fn_inner_wrapper .inner_item{ width: 26%; display: flex; justify-content: center; flex-direction: column; align-items: center;  background: #fff; padding: 25px; margin: 18px; border-radius: 2px; box-shadow: 0px 1px 1px 1px #bbbbbb; }
     .funnelblk1 .fn_inner_wrapper .inner_item img{ width: 100%; }
     .funnelblk1 .fn_inner_wrapper .inner_item .action_button{ background-image: linear-gradient(to right bottom, #eebe8c, #f2bb83, #f6b87a, #f9b572, #fdb269)!important; width: 100%; font-family: 'RobotoMedium'; color: #fff; font-size: 24px; text-transform: uppercase;     text-align: center;padding: 8px; margin-top: 24px; border-radius: 0; }
     .funnelblk1 .mat-card-content>:last-child:not(.mat-card-footer), .mat-card>:last-child:not(.mat-card-footer) { margin-bottom: 0px; }
