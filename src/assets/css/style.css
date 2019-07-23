@@ -258,6 +258,17 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 
 .mainfooter_block1_con3 p{ margin: 0; padding: 0; font-size: 14px; color: #726c67;   font-weight: normal; line-height: 30px;}
 
+.mainfooter_block1_con3 p a {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #726c67;
+    font-weight: normal;
+    font-family: 'MontserratSemiBold';
+}
+.mainfooter_block1_con3 p a:hover{color: #c69362;}
+
 .mainfooter_block1_con2 ul{ margin: 0; padding: 0;}
 .mainfooter_block1_con2 ul li{ margin: 0;  list-style: none; padding: 0 10px; float: none;}
 .mainfooter_block1_con2 li:nth-child(1){padding-left:0px !important;}
@@ -705,7 +716,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     .topBanner{ background: url(../images/funnelTopBanner.jpg) no-repeat!important; background-position: 100% center!important; background-size: cover!important; padding: 0!important; min-height: 517px; border-radius: 0!important; position: relative!important; }
     .topBanner .content { width: 860px; position: absolute; top: 50%;  left: 30%; transform: translate(-50%, -50%); }
     .topBanner .content .header{ font-family: 'MontserratBold'; font-size: 48px; color: #0c1f27; }
-    .topBanner .content .sub_header{ font-family: 'MontserratSemiBold'; font-size: 30px; color: #0c1f27; margin-bottom: 0; }
+    .topBanner .content .sub_header{ font-family: 'MontserratSemiBold'; font-size: 28px; color: #0c1f27; margin-bottom: 0; }
     .topBanner .content .mainTitle{ font-family: 'RobotoBold'; font-size: 200px; color: #fff; text-transform: uppercase; line-height: 175px; }
     .topBanner .content .bottom_title{ font-family: 'MontserratRegular'; font-size: 18px; color: #0e2129; font-weight: bold; }
     .topBanner .content .action{ font-family: 'MontserratSemiBold'; font-size: 24px;  background: #e0b285!important; border: 1px solid #fff!important; padding: 7px 20px; }
