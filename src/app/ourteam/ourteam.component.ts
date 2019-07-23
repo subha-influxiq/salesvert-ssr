@@ -17,5 +17,4 @@ export class OurteamComponent implements OnInit {
     this.meta.setTag('og:type', 'website');
     this.meta.setTag('og:image', '../../assets/images/sv_logo.png');
   }
-
 }

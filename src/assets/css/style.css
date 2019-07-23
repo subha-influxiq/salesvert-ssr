@@ -211,16 +211,46 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 
 .mainfooter_block2{ border-top: solid 1px #382e24; padding: 26px 0; text-align: center; font-size: 14px; color: #726c67; font-family: 'MontserratSemiBold'; font-weight: normal; clear: both; overflow: hidden; display: block!important;  margin-bottom: 0px!important;}
 
-.mainfooter_block1{ padding: 26px 0;  font-family: 'MontserratSemiBold'; font-weight: normal; clear: both; overflow: hidden; display: block!important;  margin-bottom: 0px!important;}
+.mainfooter_block1 {
+    padding: 26px 0;
+    font-family: 'MontserratSemiBold';
+    font-weight: normal;
+    clear: both;
+    overflow: hidden;
+    display: flex!important;
+    margin-bottom: 0px!important;
+    justify-content: space-between;
+}
 
 
 .mainfooter_block1_con1{ width: 315px; float: left; display: block!important; margin-bottom: 0px!important;}
-.mainfooter_block1_con3{ width: 315px; float: left;  display: block!important;  margin-bottom: 0px!important;}
-.mainfooter_block1_con2{ width: 145px; float: left; margin: 0 230px; display: block!important;  margin-bottom: 0px!important;}
+.mainfooter_block1_con3{ float: left;  display: block!important;  margin-bottom: 0px!important;}
+.mainfooter_block1_con2 {
+    display: flex!important;
+    margin-bottom: 0px!important;
+    flex-wrap: wrap;
+}
+.mainfooter_block1_con2 ul {
+    margin: 0;
+    padding: 0;
+    flex: 1 1 100%;
+    display: inline-flex;
+}
+
+.mainfooter_block1_con2 li{border-right:#333 solid 2px;}
 
 .mainfooter_block1_con1 h2{ margin: 0; padding: 0 0 14px 0; font-size: 18px; color: #726c67; text-transform: uppercase; font-weight: normal;}
 .mainfooter_block1_con1 p{ margin: 0; padding: 0; font-size: 14px; color: #726c67;   font-weight: normal; line-height: 30px;}
 
+.mainfooter_block1_con2 h3 {
+    margin: 0;
+    padding: 0 0 14px 0;
+    font-size: 14px;
+    color: #c69362;
+    text-transform: uppercase;
+    font-weight: normal;
+    flex: 1 1 100%;
+}
 
 .mainfooter_block1_con3 h3{ margin: 0; padding: 0 0 14px 0; font-size: 14px; color: #c69362; text-transform: uppercase; font-weight: normal;}
 
@@ -228,10 +258,10 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 
 .mainfooter_block1_con3 p{ margin: 0; padding: 0; font-size: 14px; color: #726c67;   font-weight: normal; line-height: 30px;}
 
-
 .mainfooter_block1_con2 ul{ margin: 0; padding: 0;}
-.mainfooter_block1_con2 ul li{ margin: 0;  list-style: none; padding: 0 0 16px 0; float: none;}
-
+.mainfooter_block1_con2 ul li{ margin: 0;  list-style: none; padding: 0 10px; float: none;}
+.mainfooter_block1_con2 li:nth-child(1){padding-left:0px !important;}
+.mainfooter_block1_con2 li:last-child{padding-right:0px !important; border-right: 0px solid #333 !important;}
 .mainfooter_block1_con2 ul li a{ font-size: 14px; color: #726c67;   font-weight: normal;}
 
 
