@@ -874,7 +874,7 @@ a{cursor: pointer; outline: none;}
     flex: 1 1 0%;
     box-sizing: border-box;
 }
-
+.vpblock1bg.mat-card{padding-bottom: 16px !important;}
 
 
     @media only screen and (max-width: 1850px) {
