@@ -16,6 +16,9 @@ import { OurteamComponent } from "./ourteam/ourteam.component";
 import { ContactusComponent } from "./contactus/contactus.component";
 import { FunnelComponent } from './funnel/funnel.component';
 
+import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
+
+
 const appRoutes: Routes = [
     { path: 'about', component: AboutusComponent,data: { meta: { title: 'About US', description: 'Have you seen my rubber duckie?' } } },
     { path: 'contact', component: ContactusComponent, data: { meta: { title: 'Contact Us', description: 'Have you seen my rubber duckie?' } } },
@@ -26,7 +29,8 @@ const appRoutes: Routes = [
     { path: 'platform-features', component: PlatformFeaturesComponent},
     { path: 'ourteam', component: OurteamComponent},
     { path: 'contactus', component: ContactusComponent},
-    { path: 'funnel', component: FunnelComponent}
+    { path: 'funnel', component: FunnelComponent},
+    { path: 'aspire-payment-suite', component: AspirePaymentSuiteComponent},
 ];
 
 @NgModule({

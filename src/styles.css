@@ -1,2 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.mat-card-header-text {
+    margin: 0 !important;
+}
+
+.formcls .mat-form-field-flex{
+    background-color: #eeeff2;
+    border:1px solid #b6c0c9;
+}
+
+.formcls .mat-input-element {
+    caret-color: #000 !important;
+}
+
+.formcls .mat-card-footer {
+    display: block;
+    margin: 15px auto 12px;
+    width: 94%;
+}
+
+.formcls .mat-form-field-infix {
+    border-top: 0 solid transparent;
+}
+
+.formcls .mat-form-field .mat-form-field-label{
+    color:#000000;
+}
+
+.formcls .mat-form-field.mat-focused .mat-form-field-label{
+    color:#000 !important;
+    display: none;
+}
+
+.formcls .mat-form-field-appearance-legacy .mat-form-field-label {
+    top: 0.9em;
+}
+
+
+.formcls input.mat-input-element {
+    margin-top: -.0725em;
+}
+
+.formcls .mat-form-field-label-wrapper {
+    left: 5px !important;
+    width: 98%;
+}

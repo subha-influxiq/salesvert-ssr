@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { MetaModule } from '@ngx-meta/core';
 import { DemoMaterialModule} from '../app/material-module';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 /* Page component */
 import { AboutusComponent } from './aboutus/aboutus.component';
@@ -17,9 +19,11 @@ import { ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { PlatformFeaturesComponent } from './platform-features/platform-features.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 import { ContactusComponent } from './contactus/contactus.component'; 
-import { FunnelComponent } from './funnel/funnel.component'
+import { FunnelComponent, DialogDataExampleDialog} from './funnel/funnel.component'
 import { RouterModule } from '@angular/router';
 import { ReadmoreComponent } from './readmore/readmore.component';
+import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +36,7 @@ import { ReadmoreComponent } from './readmore/readmore.component';
     PlatformFeaturesComponent,
     OurteamComponent,
     ContactusComponent, 
-    FunnelComponent, ReadmoreComponent
+    FunnelComponent, ReadmoreComponent, DialogDataExampleDialog, AspirePaymentSuiteComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -44,9 +48,11 @@ import { ReadmoreComponent } from './readmore/readmore.component';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ModalModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[DialogDataExampleDialog]
 })
 export class AppModule { }

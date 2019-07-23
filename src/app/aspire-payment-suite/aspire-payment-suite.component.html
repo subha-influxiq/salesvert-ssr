@@ -1,0 +1,361 @@
+
+<mat-card class="vpheaderwrapper">
+  <span class="homemain">
+    <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span class="topmenuiconlogo">
+         <span class="logowrappersml" fxFlex><img src="../../assets/images/logo.png" class="landinglogoblock1"></span>
+        <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm><mat-icon>menu</mat-icon></button>
+        <span class="menu-spacer"></span>
+      </span>
+
+      <span fxShow="true" fxHide.lt-md class="smlmenudiv">
+          <mat-nav-list fxLayout>
+            <span class="logowrapper" fxFlex><img src="../../assets/images/logo.png" class="landinglogoblock1"></span>
+
+               <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/index.php">Home</a>
+            </mat-list-item>
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/bio.php">Bio</a>
+            </mat-list-item>
+
+                <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/business_training.php">Training</a>
+            </mat-list-item>
+
+              <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/custom_development.php">Web Development</a>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/MLM.php">MLM Software</a>
+            </mat-list-item>
+
+                <mat-list-item fxFlex>
+              <a [matMenuTriggerFor]="menu1">Partnerships &#11167;</a>
+              <mat-menu #menu1="matMenu">
+                 <a href="http://www.betoparedes.com/partnerships.php" mat-menu-item>Joint Ventures</a>
+              <a href="https://geoaitechnologies.com/#/" target="_blank" mat-menu-item>GEOAI Technologies</a>
+               <a href="http://www.dnamastercourse.com/" target="_blank" mat-menu-item>DNA of Success</a>
+               <!--<a href="http://virtualpayment.betoparedes.com/virtualpayment" mat-menu-item>Virtual Payments Suite</a>-->
+               <a href="http://virtualpayment.betoparedes.com/Aspire-Payment-Suite" mat-menu-item>Aspire-Payment-Suite</a>
+              </mat-menu>
+            </mat-list-item>
+
+
+
+
+                <mat-list-item fxFlex>
+              <a [matMenuTriggerFor]="menu3">About Us &#11167;</a>
+              <mat-menu #menu3="matMenu">
+
+              <a href="http://www.betoparedes.com/executiveteam.php" mat-menu-item>Our Staff and Partners</a>
+               <a href="http://www.betoparedes.com/sales-associate.php" mat-menu-item>Join us as a Sales Rep</a>
+               <a href="http://www.betoparedes.com/philosophy.php" mat-menu-item>Our Philosophy</a>
+              </mat-menu>
+            </mat-list-item>
+
+
+                <mat-list-item fxFlex>
+              <a href="http://toponlinedesigns.com" target="_blank">Portfolio</a>
+            </mat-list-item>
+
+
+              <!--  <mat-list-item fxFlex>
+                  <a href="http://www.betoparedes.com/philosophy.php">Philosophy</a>
+                </mat-list-item>-->
+
+
+        <!--    <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/consulting.php">Consulting</a>
+            </mat-list-item>-->
+
+
+         <!--   <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/partnerships.php">Partnerships</a>
+            </mat-list-item>-->
+
+
+           <!-- <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/business_training.php">Business&nbsp;Training</a>
+            </mat-list-item>-->
+
+            <mat-list-item fxFlex>
+              <a [matMenuTriggerFor]="menu">social &#11167;</a>
+              <mat-menu #menu="matMenu">
+                <a href="http://www.betoparedes.com/twitter/index.php" mat-menu-item>Twitter</a>
+                <a href="https://www.linkedin.com/in/betoparedes" target="_blank" mat-menu-item>LinkedIN</a>
+                <a href="https://www.facebook.com/betoparedespro"  target="_blank" mat-menu-item>Facebook</a>
+              </mat-menu>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/contactus.php">Contact</a>
+            </mat-list-item>
+
+
+
+          </mat-nav-list>
+
+      </span>
+    </mat-toolbar-row>
+
+    </mat-toolbar>
+
+
+    <!----Small menu--->
+
+    <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+         <mat-nav-list fxLayout>
+            <span class="logowrapper" fxFlex><img src="../../assets/images/logo.png" class="landinglogoblock1"></span>
+
+
+               <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/index.php">Home</a>
+            </mat-list-item>
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/bio.php">Bio</a>
+            </mat-list-item>
+
+                <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/business_training.php">Training</a>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/custom_development.php">Web Development</a>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/MLM.php">MLM Software</a>
+            </mat-list-item>
+
+
+               <mat-list-item fxFlex>
+              <a [matMenuTriggerFor]="menu1">Partnerships &#11167;</a>
+              <mat-menu #menu1="matMenu">
+                <a href="http://www.betoparedes.com/partnerships.php" mat-menu-item>Joint Ventures</a>
+              <a href="https://geoaitechnologies.com/#/" target="_blank" mat-menu-item>GEOAI Technologies</a>
+               <a href="http://www.dnamastercourse.com/" target="_blank" mat-menu-item>DNA of Success</a>
+                  <!--<a href="http://virtualpayment.betoparedes.com/virtualpayment" mat-menu-item>Virtual Payments Suite</a>-->
+               <a href="http://virtualpayment.betoparedes.com/Aspire-Payment-Suite" mat-menu-item>Aspire Payment Suite</a>
+              </mat-menu>
+            </mat-list-item>
+
+
+
+
+                <mat-list-item fxFlex>
+              <a [matMenuTriggerFor]="menu3">About Us &#11167;</a>
+              <mat-menu #menu3="matMenu">
+
+              <a href="http://www.betoparedes.com/executiveteam.php" mat-menu-item>Our Staff and Partners</a>
+               <a href="http://www.betoparedes.com/sales-associate.php" mat-menu-item>Join us as a Sales Rep</a>
+               <a href="http://www.betoparedes.com/philosophy.php" mat-menu-item>Our Philosophy</a>
+              </mat-menu>
+            </mat-list-item>
+
+            <mat-list-item fxFlex>
+              <a href="http://toponlinedesigns.com" target="_blank">Portfolio</a>
+            </mat-list-item>
+
+
+           <!-- <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/philosophy.php">Philosophy</a>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/consulting.php">Consulting</a>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/partnerships.php">Partnerships</a>
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/business_training.php">Business&nbsp;Training</a>
+            </mat-list-item>-->
+
+
+            <mat-list-item fxFlex>
+              <a [matMenuTriggerFor]="menu">social  &#11167;</a>
+              <mat-menu #menu="matMenu">
+                <a href="http://www.betoparedes.com/twitter/index.php" mat-menu-item>Twitter</a>
+                <a href="https://www.linkedin.com/in/betoparedes" target="_blank" mat-menu-item>LinkedIN</a>
+                <a href="https://www.facebook.com/betoparedespro"  target="_blank" mat-menu-item>Facebook</a>
+              </mat-menu>
+
+            </mat-list-item>
+
+
+            <mat-list-item fxFlex>
+              <a href="http://www.betoparedes.com/contactus.php">Contact</a>
+            </mat-list-item>
+          </mat-nav-list>
+    </mat-sidenav>
+    <!--<mat-sidenav-content fxFlexFill>Main content</mat-sidenav-content>-->
+  </mat-sidenav-container>
+    <!----End Small menu--->
+  </span>
+</mat-card>
+
+
+
+
+<mat-card class="vpblock1bg" id="vpblock1bg">
+
+    <mat-card-content class="topbannerhomewrapper">
+
+
+    <span class="mainwrappercontent">
+
+
+      <span class="topbannerhomecontentform">
+        <span class="topbannerhomeleft">
+             <div class="newAspire_block">
+
+            <div class="newAspire_block_wrapper">
+
+                <h2 class="h2text">Brought to you by our Partner</h2>
+<img src="../../assets/images/aspire_assets-01.png" class="aspire_assets">
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+          <h2>Is your company earning over $100 million in revenue?</h2>
+          <mat-list role="list" class="listsbanner">
+              <mat-list-item role="listitem" class="imgicon"><span>do you want to Automate Accounts Payable?</span></mat-list-item>
+              <mat-list-item role="listitem" class="imgicon"><span>How about Reduce AP Operating Expense?</span></mat-list-item>
+              <mat-list-item role="listitem" class="imgicon"><span>Generate Revenue When Paying Suppliers?</span></mat-list-item>
+            </mat-list>
+          <p>Our complete commercial virtual payment suite will boost your accounting department by monetizing payments while
+            maximizing automation.
+
+          <span>Your company could be getting a substantial 6 to 7 figure rebate simply by switching your payables department to Aspire!</span>
+          </p>
+
+
+          <span class="vpblock1imgleftwrapper">
+            <img src="../../assets/images/vpblock1imgleft.png" class="vpblock1imgleft">
+          </span>
+        </span>
+        <span class="topbannerhomeright formcls" id="formclsblock">
+          <mat-card-header>
+            <h2>Tell Us More About Yourself!</h2>
+          </mat-card-header>
+
+
+    <form [formGroup]="myform" (submit)="doSubmit()">
+
+          <mat-card-content class="example-container">
+              <mat-form-field>
+               <!-- <input matInput placeholder="First Name">-->
+                  <input matInput placeholder="First Name"  [formControl]="myform.controls['fname']" (blur)="inputUntouch(myform,'fname')">
+        <span  *ngIf="!myform.controls['fname'].valid && myform.controls['fname'].touched" class="errortext">First Name is required</span>
+
+              </mat-form-field>
+              <mat-form-field>
+
+              <!--  <input matInput placeholder="Last Name">-->
+                    <input matInput placeholder="Last Name"  [formControl]="myform.controls['lname']" (blur)="inputUntouch(myform,'lname')">
+        <span  *ngIf="!myform.controls['lname'].valid && myform.controls['lname'].touched" class="errortext">Last Name is required</span>
+
+
+              </mat-form-field>
+              <mat-form-field>
+               <!-- <input matInput placeholder="Phone Number">-->
+
+                   <input matInput placeholder="Phone Number"  [formControl]="myform.controls['pnumber']" (blur)="inputUntouch(myform,'pnumber')">
+        <span  *ngIf="!myform.controls['pnumber'].valid && myform.controls['pnumber'].touched" class="errortext">Phone Number is required</span>
+
+
+              </mat-form-field>
+              <mat-form-field>
+
+<!-- <input matInput placeholder="Email Address">-->
+
+                  <input matInput placeholder="Email Address"  [formControl]="myform.controls['email']" (blur)="inputUntouch(myform,'email')">
+        <span  *ngIf="!myform.controls['email'].valid && myform.controls['email'].touched" class="errortext">Email Address is required</span>
+
+              </mat-form-field>
+              <mat-form-field>
+
+                <!--<input matInput placeholder="Company">-->
+                   <input matInput placeholder="Company"  [formControl]="myform.controls['company']" (blur)="inputUntouch(myform,'company')">
+        <span  *ngIf="!myform.controls['company'].valid && myform.controls['company'].touched" class="errortext">Company is required</span>
+
+              </mat-form-field>
+              <mat-form-field>
+
+                <!--<input matInput placeholder="Website">-->
+                   <input matInput placeholder="Website"  [formControl]="myform.controls['website']" (blur)="inputUntouch(myform,'website')">
+        <span  *ngIf="!myform.controls['website'].valid && myform.controls['company'].touched" class="errortext">Website is required</span>
+
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput placeholder="Estimated Revenue In 2018">
+
+
+              </mat-form-field>
+          </mat-card-content>
+
+            <mat-card-footer>
+              <button mat-button>let<sub>,</sub> s Get You Started</button>
+            </mat-card-footer>
+
+    </form>
+
+        </span>
+      </span>
+    </span>
+    </mat-card-content>
+    <span class="overlaybg"></span>
+</mat-card>
+
+
+<mat-card>
+  <mat-card-content>
+      <img src="../../assets/images/aspire-img1.jpg" class="aspireimg1 imgresponsive">
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-content>
+      <img src="../../assets/images/aspire-img2.jpg" class="aspireimg2 imgresponsive">
+  </mat-card-content>
+</mat-card>
+
+
+<mat-card>
+  <mat-card-content>
+      <img src="../../assets/images/aspire-img3.jpg" class="aspireimg3 imgresponsive">
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-content>
+      <img src="../../assets/images/aspire-img4.jpg" class="aspireimg4 imgresponsive">
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-content>
+      <img src="../../assets/images/aspire-img5.jpg" class="aspireimg5 imgresponsive">
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-content>
+      <img src="../../assets/images/aspire-img6.jpg" class="aspireimg6 imgresponsive">
+  </mat-card-content>
+</mat-card>
