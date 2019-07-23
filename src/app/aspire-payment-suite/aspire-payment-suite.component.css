@@ -275,7 +275,7 @@ a{cursor: pointer; outline: none;}
 }
 
 
-
+.vpheaderwrapper .topmenuiconlogo .mat-icon-button{display:none;}
 
 .ptb-77.mat-card{
     padding-top: 57px !important;
@@ -788,38 +788,7 @@ a{cursor: pointer; outline: none;}
     white-space: normal;
 }
 
-.formcls .mat-card-footer {
-    display: block;
-    margin: 15px auto 12px;
-    width: 94%;
-}
 
-.formcls .mat-form-field-infix {
-    border-top: 0 solid transparent;
-}
-
-.formcls .mat-form-field .mat-form-field-label{
-    color:#000000;
-}
-
-.formcls .mat-form-field.mat-focused .mat-form-field-label{
-    color:#000 !important;
-    display: none;
-}
-
-.formcls .mat-form-field-appearance-legacy .mat-form-field-label {
-    top: 0.9em;
-}
-
-
-.formcls input.mat-input-element {
-    margin-top: -.0725em;
-}
-
-.formcls .mat-form-field-label-wrapper {
-    left: 5px !important;
-    width: 98%;
-}
 
 .mat-form-field .mat-form-field-infix{height: 30px; line-height: 30px; padding-left: 6px; padding-right: 6px;}
 
