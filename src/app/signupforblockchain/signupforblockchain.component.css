@@ -37,11 +37,11 @@
 .signupforblockchainblock1 .communitysignupnewblock1right .formdiv .form-control,
 .signupforblockchainblock1 .communitysignupnewblock1right .formdiv textarea.form-control {height: 40px;line-height: 40px;font-size: 18px;}
 .signupforblockchainblock1 .toprightgradientbg {right: -6px;z-index: 999;}
-.manimgwrapper {position: absolute;left: 0;top: -28%;z-index: 999;width: 100%;}
+.manimgwrapper {position: absolute;left: 0;top: -20%;z-index: 999;width: 100%;}
 .signupforblockchainblock1 .imgmanleft {position: absolute;left: -40%;top: 0;z-index: 999;}
 .signupforblockchainblock1 .manhand {position: absolute;left: -39px;top: 689px;z-index: 9999;}
 .signupforblockchainblock1 .vbllist1 {position: absolute;left: 7%;width: 840px;z-index: 9999;margin-top: 70%;}
-.signupforblockchainblock1 .vbllist1 li {background: url(../../assets/images/signupforblockchainvbllist_arrow.png) no-repeat right bottom;background-size: 100% 100%;position: relative;height: 97px;width: 100%;margin-bottom: 10px;padding: 20px 6% 32px 11% !important;font-family: "Helvetica";font-weight: bold;font-size: 24px;line-height: normal;color: #203b70;display: inline-flex;justify-content: flex-start;}
+.signupforblockchainblock1 .vbllist1 li {background: url(../../assets/images/signupforblockchainvbllist_arrow.png) no-repeat right bottom;background-size: 100% 100%;position: relative;margin-bottom: 10px;padding: 20px 6% 32px 11% !important;font-family: "Helvetica";font-weight: bold;font-size: 24px;line-height: normal;color: #203b70;display: inline-flex;justify-content: flex-start; width: 85%;}
 .signupforblockchainblock1 .vbllist1 li span {font-family: "Ralewaybold";font-size: 36px !important;color: #fff !important;padding: 0;line-height: 36px;letter-spacing: 0px;text-transform: uppercase;text-shadow: 2px 6px 7px rgba(0, 0, 0, 0.6);padding-right: 20px;}
 .signupforblockchainblock1 .iconblockchain {position: absolute;right: -10%;top: -35%;z-index: 99999;}
 .signupforblockchainblock1 .vblb6img5 {position: absolute;left: 0;top: 85%;z-index: 99999;background: url(../../assets/images/blockchainbtn_arrow.png) no-repeat right bottom;width: 924px;height: 125px;}
@@ -61,6 +61,8 @@
 
 .communitysignupnewblock1left {
     min-height: 1px;
+    padding-right: 1%;
+    margin-bottom: -30px;
     position: relative;
 }
 
@@ -139,4 +141,352 @@
 .btnnewwrapper {background: rgba(0,0,6,1);background: -moz-linear-gradient(top, rgba(0,0,6,1) 0%, rgba(21,21,25,1) 100%);background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,6,1)), color-stop(100%, rgba(21,21,25,1)));background: -webkit-linear-gradient(top, rgba(0,0,6,1) 0%, rgba(21,21,25,1) 100%);background: -o-linear-gradient(top, rgba(0,0,6,1) 0%, rgba(21,21,25,1) 100%);background: -ms-linear-gradient(top, rgba(0,0,6,1) 0%, rgba(21,21,25,1) 100%);background: linear-gradient(to bottom, rgba(0,0,6,1) 0%, rgba(21,21,25,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000006', endColorstr='#151519', GradientType=0 );-webkit-box-shadow: 3px -1px 13px -2px rgba(0,0,0,0.46);-moz-box-shadow: 3px -1px 13px -2px rgba(0,0,0,0.46);-ms-box-shadow: 3px -1px 13px -2px rgba(0,0,0,0.46);text-align: center;}
 
 .imgresponsive{width: 100%;}
+
+.bannerleftnew {
+    width: 53%;
+    margin-top: 60px;
+    display: inline-block;
+}
+
 /*--------- End signupblockchain css ------------*/
+
+
+@media (max-width: 1800px){
+    .signupforblockchainblock1 .vbllist1 {
+        left: 7%;
+        width: 810px;
+        z-index: 9999;
+        margin-top: 73%;
+    }
+    }
+    
+    @media (max-width: 1740px){
+    .communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+        width: 1690px;
+    }
+    .signupforblockchainblock1 .manhand {
+        left: -2.8%;
+    }
+}
+@media (max-width: 1700px){
+.communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+    width: 1600px;
+}
+.signupforblockchainblock1 .bannerleftnew .titletxt3 {
+    font-size: 32px;
+    margin: 0 0 24px 50%;
+    margin-top: 32px;
+}
+.signupforblockchainblock1 .bannerleftnew .titletxt2 {
+    font-size: 28px;
+    margin: 0 0 20px 50%;
+    line-height: normal !important;
+}
+}
+@media (max-width: 1666px){
+    .signupforblockchainblock1 .vbllist1 li {
+        font-size: 17px;
+    }
+    .signupforblockchainblock1 .imgmanleft {
+        position: absolute;
+        left: -38%;
+        top: 0;
+        z-index: 999;
+    }
+    .bannerleftnew {
+        width: 39%;
+    }
+    .signupforblockchainblock1 .vbllist1 {
+        margin-top: 82%;
+        width: 690px;
+        left: 15%;
+    }
+    .signupforblockchainblock1 .manhand {
+        left: 1.8%;
+    }
+}
+@media (max-width: 1600px){
+    .signupforblockchainblock1 .vbllist1 li span {
+        font-size: 30px !important;
+    }
+    .signupforblockchainblock1 .vbllist1 {
+        width: 775px;
+        left: 10%;
+    }
+    .signupforblockchainblock1 .titletxt1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+        width: 1540px;
+    }
+    .signupforblockchainblock1 .imgmanleft {
+        top: -24%;
+    }
+    }
+
+@media (max-width: 1530px){
+    .signupforblockchainblock1 .vbllist1 li span {
+        font-size: 26px !important;
+    }
+    .signupforblockchainblock1 .bannerleftnew .titletxt3 {
+        font-size: 30px;
+        margin: 0 0 24px 50%;
+        margin-top: 32px;
+    }
+    .signupforblockchainblock1 .bannerleftnew .titletxt3 span {
+        width: 280px;
+        display: block;
+        margin-left: 16%;
+        margin-top: 2px;
+    }
+    .signupforblockchainblock1 .vbllist1 {
+        width: 675px;
+        left: 15%;
+        margin-top: 81%;
+    }
+    .communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+        width: 1530px;
+    }
+    .signupforblockchainblock1 .bannerleftnew .titletxt2 {
+        font-size: 25px;
+        margin: 0 0 20px 50%;
+        line-height: normal !important;
+    }
+    .signupforblockchainblock1 .vblb6img5 {
+        width: 838px;
+    }
+    .signupforblockchainblock1 .imgmanleft {
+        top: -24%;
+    }
+}
+@media (max-width: 1400px){
+    .signupforblockchainblock1 .manhand {
+        left: 11.0%;
+    }
+    .signupforblockchainblock1 .vbllist1 li {
+        line-height: normal;
+    }
+    .signupforblockchainblock1 .vbllist1 li {
+        padding: 29px 6% 32px 10% !important;
+        margin-bottom: 6px;
+        width: 100%;
+    }
+    .signupforblockchainblock1 .communitysignupnewblock1inner {
+        width: 98%;
+    }
+    .signupforblockchainblock1 .vbllist1 {
+        width: 650px;
+        left: 23%;
+        margin-top: 79%;
+    }
+    .signupforblockchainblock1 .titletxt1 {
+        font-size: 78px;
+        line-height: 80px;
+    }
+    .communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+        width: 1300px;
+    }
+    .signupforblockchainblock1 .imgmanleft {
+        left: -29%;
+    }
+    .signupforblockchainblock1 .communitysignupnewblock1right .formdiv {
+        width: 100%;
+    }
+    .communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+        width: 1265px;
+    }
+}
+
+@media (max-width: 1310px){
+    .signupforblockchainblock1 .iconblockchain {
+        position: absolute;
+        right: -20%;
+        top: -35%;
+        z-index: 99999;
+    }
+    .signupforblockchainblock1 .manhand {
+        left: 1.2%;
+    }
+.communitysignupnewblock1.signupforblockchainblock1 .newwrapper {
+    width: 1200px;
+}
+.signupforblockchainblock1 .imgmanleft {
+    left: -41%;
+}
+}
+
+@media (max-width: 1300px){
+    .signupforblockchainblock1 .vbllist1 {
+        width: 580px;
+        left: 16%;
+        margin-top: 85%;
+    }}
+
+    @media (max-width: 1280px){
+          .signupforblockchainblock1 .communitysignupnewblock1right {
+        width: 32%;
+    }
+    .signupforblockchainblock1 .communitysignupnewblock1left {
+        width: 68%;
+    }
+    }
+
+@media (max-width: 1240px){
+    .signupforblockchainblock1 .manhand {
+        left: 4.2%;
+    }
+    .signupforblockchainblock1 .vbllist1 {
+        width: 566px;
+        margin-top: 88%;
+        left: 17%;
+    }}
+
+@media (max-width: 1199px){
+
+    .signupforblockchainblock1 .communitysignupnewblock1right .formdiv {
+        width: initial;
+    }
+    .signupforblockchainblock1 .manhand {
+        left: 0;
+        display: none;
+    }
+    .signupforblockchainblock1 .vbllist1 li span {
+        font-size: 40px !important;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .newwrapper {
+        width: 100% !important;
+        margin: 0 auto;
+        display: block;
+    }
+    .signupforblockchainblock1 .bannerleftnew .titletxt3 {
+        font-size: 36px;
+        margin: 20px auto 0px;
+        text-align: center;
+    }
+    .signupforblockchainblock1 .bannerleftnew .titletxt3 span {
+        width: 337px;
+        display: block;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+    .signupforblockchainblock1 .communitysignupnewblock1inner {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .signupforblockchainblock1 .communitysignupnewblock1left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .signupforblockchainblock1 .communitysignupnewblock1right {
+        width: 96%;
+        margin: 0 auto;
+        background: none;
+    }
+    .signupforblockchainblock1 .vblb6img5 {
+        position: inherit;
+        left: 0;
+        top: 0;
+        margin: 40px auto 0px;
+        transform: inherit;
+        background: rgba(255,60,1,1);
+        background: -moz-linear-gradient(top, rgba(255,60,1,1) 0%, rgba(252,178,31,1) 50%, rgba(254,164,30,1) 51%, rgba(254,203,34,1) 71%, rgba(255,233,124,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,60,1,1)), color-stop(50%, rgba(252,178,31,1)), color-stop(51%, rgba(254,164,30,1)), color-stop(71%, rgba(254,203,34,1)), color-stop(100%, rgba(255,233,124,1)));
+        background: -webkit-linear-gradient(top, rgba(255,60,1,1) 0%, rgba(252,178,31,1) 50%, rgba(254,164,30,1) 51%, rgba(254,203,34,1) 71%, rgba(255,233,124,1) 100%);
+        background: -o-linear-gradient(top, rgba(255,60,1,1) 0%, rgba(252,178,31,1) 50%, rgba(254,164,30,1) 51%, rgba(254,203,34,1) 71%, rgba(255,233,124,1) 100%);
+        background: -ms-linear-gradient(top, rgba(255,60,1,1) 0%, rgba(252,178,31,1) 50%, rgba(254,164,30,1) 51%, rgba(254,203,34,1) 71%, rgba(255,233,124,1) 100%);
+        background: linear-gradient(to bottom, rgba(255,60,1,1) 0%, rgba(252,178,31,1) 50%, rgba(254,164,30,1) 51%, rgba(254,203,34,1) 71%, rgba(255,233,124,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3c01', endColorstr='#ffe97c', GradientType=0 );
+        padding: 20px;
+        height: auto;
+        width: 96%;
+    }
+.signupforblockchainblock1 .vbllist1 {
+    left: 0;
+    position: inherit;
+    width: 96%;
+    margin-top: -80px !important;
+    margin: 0 auto;
+}
+.signupforblockchainblock1 .titletxt1 {
+    font-size: 60px;
+    line-height: normal;
+}
+.signupforblockchainblock1 .bannerleftnew .titletxt2 {
+    font-size: 28px;
+    margin: 0px auto;
+    text-align: center !important;
+}
+.signupforblockchainblock1 .bannerleftnew {
+    width: 100% !important;
+    padding: 0px;
+    margin-top: 0px;
+}
+.manimgwrapper {
+    position: inherit;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    margin-top: -20%;
+}
+.signupforblockchainblock1 .imgmanleft {
+    left: 0;
+    position: inherit;
+    top: 0;
+    margin-left: -22%;
+    width: 130%;
+}
+
+.signupforblockchainblock1 .vbllist1 li {
+    transform: inherit;
+    background: rgba(163,82,5,1);
+    background: -moz-linear-gradient(left, rgba(163,82,5,1) 0%, rgba(245,255,246,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(163,82,5,1)), color-stop(100%, rgba(245,255,246,1)));
+    background: -webkit-linear-gradient(left, rgba(163,82,5,1) 0%, rgba(245,255,246,1) 100%);
+    background: -o-linear-gradient(left, rgba(163,82,5,1) 0%, rgba(245,255,246,1) 100%);
+    background: -ms-linear-gradient(left, rgba(163,82,5,1) 0%, rgba(245,255,246,1) 100%);
+    background: linear-gradient(to right, rgba(163,82,5,1) 0%, rgba(245,255,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a35205', endColorstr='#f5fff6', GradientType=1 );
+    padding: 20px !important;
+    height: auto;
+    width: initial;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+.bannerleftnew {
+    width: 100%;
+    padding: 0px 20px 20px;
+}
+.signupforblockchainblock1 .bannerleftnew {
+    width: 100% !important;
+}
+}
+@media (max-width: 1024px){
+.signupforblockchainblock1 .bannerleftnew {
+    margin-top: 30px;
+}
+}
+@media (max-width: 991px){
+.signupforblockchainblock1 .titletxt1 {
+    font-size: 42px;
+    line-height: normal;
+}
+.bannerleftnew {
+    width: 65% !important;
+    padding: 0px 20px 20px;
+}
+}
+
+
+@media (max-width: 480px){
+.signupforblockchainblock1 .bannerleftnew .titletxt3 span {
+    width: 220px;
+}
+}
