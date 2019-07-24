@@ -126,7 +126,6 @@
                 <a href="javascript:void(0);" mat-menu-item>Joint Ventures</a>
               <a href="javascript:void(0);" target="_blank" mat-menu-item>GEOAI Technologies</a>
                <a href="javascript:void(0);" target="_blank" mat-menu-item>DNA of Success</a>
-                  <!--<a href="http://virtualpayment.betoparedes.com/virtualpayment" mat-menu-item>Virtual Payments Suite</a>-->
                <a href="javascript:void(0);" mat-menu-item>Aspire Payment Suite</a>
               </mat-menu>
             </mat-list-item>
@@ -148,25 +147,6 @@
               <a href="javascript:void(0);" target="_blank">Portfolio</a>
             </mat-list-item>
 
-
-           <!-- <mat-list-item fxFlex>
-              <a href="http://www.betoparedes.com/philosophy.php">Philosophy</a>
-            </mat-list-item>
-
-
-            <mat-list-item fxFlex>
-              <a href="http://www.betoparedes.com/consulting.php">Consulting</a>
-            </mat-list-item>
-
-
-            <mat-list-item fxFlex>
-              <a href="http://www.betoparedes.com/partnerships.php">Partnerships</a>
-            </mat-list-item>
-
-
-            <mat-list-item fxFlex>
-              <a href="http://www.betoparedes.com/business_training.php">Business&nbsp;Training</a>
-            </mat-list-item>-->
 
 
             <mat-list-item fxFlex>
@@ -242,23 +222,20 @@
           <mat-card-content class="example-container">
               <mat-form-field>
                <!-- <input matInput placeholder="First Name">-->
-                  <input matInput placeholder="First Name"  [formControl]="myform.controls['fname']" (blur)="inputUntouch(myform,'fname')">
-        <span  *ngIf="!myform.controls['fname'].valid && myform.controls['fname'].touched" class="errortext">First Name is required</span>
+                  <input matInput placeholder="First Name">
 
               </mat-form-field>
               <mat-form-field>
 
               <!--  <input matInput placeholder="Last Name">-->
-                    <input matInput placeholder="Last Name"  [formControl]="myform.controls['lname']" (blur)="inputUntouch(myform,'lname')">
-        <span  *ngIf="!myform.controls['lname'].valid && myform.controls['lname'].touched" class="errortext">Last Name is required</span>
+                    <input matInput placeholder="Last Name">
 
 
               </mat-form-field>
               <mat-form-field>
                <!-- <input matInput placeholder="Phone Number">-->
 
-                   <input matInput placeholder="Phone Number"  [formControl]="myform.controls['pnumber']" (blur)="inputUntouch(myform,'pnumber')">
-        <span  *ngIf="!myform.controls['pnumber'].valid && myform.controls['pnumber'].touched" class="errortext">Phone Number is required</span>
+                   <input matInput placeholder="Phone Number">
 
 
               </mat-form-field>
@@ -266,22 +243,19 @@
 
 <!-- <input matInput placeholder="Email Address">-->
 
-                  <input matInput placeholder="Email Address"  [formControl]="myform.controls['email']" (blur)="inputUntouch(myform,'email')">
-        <span  *ngIf="!myform.controls['email'].valid && myform.controls['email'].touched" class="errortext">Email Address is required</span>
+                  <input matInput placeholder="Email Address">
 
               </mat-form-field>
               <mat-form-field>
 
                 <!--<input matInput placeholder="Company">-->
-                   <input matInput placeholder="Company"  [formControl]="myform.controls['company']" (blur)="inputUntouch(myform,'company')">
-        <span  *ngIf="!myform.controls['company'].valid && myform.controls['company'].touched" class="errortext">Company is required</span>
+                   <input matInput placeholder="Company">
 
               </mat-form-field>
               <mat-form-field>
 
                 <!--<input matInput placeholder="Website">-->
-                   <input matInput placeholder="Website"  [formControl]="myform.controls['website']" (blur)="inputUntouch(myform,'website')">
-        <span  *ngIf="!myform.controls['website'].valid && myform.controls['company'].touched" class="errortext">Website is required</span>
+                   <input matInput placeholder="Website" >
 
               </mat-form-field>
               <mat-form-field>

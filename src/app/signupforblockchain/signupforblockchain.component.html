@@ -35,8 +35,8 @@
         </div>
         <div class="communitysignupnewblock1right">
           <h2 class="formtoptxt">Only $19.95<br> for 10 Certifications!<!--For 10 Medias!--> </h2>
-          <form class="formdiv" name="dancingform" novalidate [formGroup]="blockchainForm" (ngSubmit)="dosubmit(blockchainForm.value)">
-            <div class="cslandingformwrapper" #destinationRef>
+          <form class="formdiv" name="dancingform">
+            <div class="cslandingformwrapper">
               <div class="cslandingformheader">
                 <h1>protect your <span>creative work!</span></h1>
               </div>
@@ -44,53 +44,43 @@
                 <div class="form-group hide">
                 </div>
                 <div class="form-group">
-                  <span class="has-error" *ngIf ="existmsg!='' "> {{existmsg}}</span>
-                  <input name="first-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" (blur)="_commonservices.inputUntouch(blockchainForm,'firstname')" [formControl]="blockchainForm.controls['firstname']" placeholder="first name">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['firstname'].touched && !blockchainForm.controls['firstname'].valid"> First Name field can not be blank</span>
+                  <input name="first-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text"placeholder="first name">
                 </div>
                 <div class="form-group">
-                  <input name="last-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" (blur)="_commonservices.inputUntouch(blockchainForm,'lastname')" [formControl]="blockchainForm.controls['lastname']" placeholder="last name">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['lastname'].touched && !blockchainForm.controls['lastname'].valid"> Last Name field can not be blank</span>
+                  <input name="last-name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" placeholder="last name">
                 </div>
 
                 <div class="form-group">
-                  <input name="your-email" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" (blur)="_commonservices.inputUntouch(blockchainForm,'email')" [formControl]="blockchainForm.controls['email']" placeholder="email">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['email'].touched && !blockchainForm.controls['email'].valid"> Email field can not be blank</span>
+                  <input name="your-email" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" placeholder="email">
                 </div>
 
                 <div class="form-group">
-                  <input name="your-phone" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" [formControl]="blockchainForm.controls['phone']" (blur)="_commonservices.inputUntouch(blockchainForm,'phone')"  placeholder="phone">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['phone'].touched && !blockchainForm.controls['phone'].valid"> Phone field can not be blank</span>
+                  <input name="your-phone" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" type="text" placeholder="phone">
                 </div>
 
                 <div class="form-group">
-                  <input name="address" class="form-control" type="text" [formControl]="blockchainForm.controls['address']" (blur)="_commonservices.inputUntouch(blockchainForm,'address')" placeholder="Your Address">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['address'].touched && !blockchainForm.controls['address'].valid"> Address field can not be blank</span>
+                  <input name="address" class="form-control" type="text" placeholder="Your Address">
                 </div>
 
                 <div class="form-group">
-                  <input name="city" class="form-control" type="text" [formControl]="blockchainForm.controls['city']" (blur)="_commonservices.inputUntouch(blockchainForm,'city')"  placeholder="city">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['city'].touched && !blockchainForm.controls['city'].valid"> Hometown field can not be blank</span>
+                  <input name="city" class="form-control" type="text" placeholder="city">
                 </div>
 
 
                 <div class="form-group hide">
-                  <input name="country" class="form-control" type="text" [formControl]="blockchainForm.controls['country']" (blur)="_commonservices.inputUntouch(blockchainForm,'country')"  placeholder="country">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['country'].touched && !blockchainForm.controls['country'].valid"> Country field can not be blank</span>
+                  <input name="country" class="form-control" type="text" placeholder="country">
                 </div>
 
 
                 <div class="form-group">
-                  <select name="state" class="form-control classic" [formControl]="blockchainForm.controls['state']" (blur)="_commonservices.inputUntouch(blockchainForm,'state')">
+                  <select name="state" class="form-control classic">
                     <option value="">Select State</option>
-                    <option *ngFor="let item of state" value="{{item.abbreviation}}">{{item.name}}</option>
+                    <option value=""></option>
                   </select>
-                  <span class="has-error" *ngIf ="blockchainForm.controls['state'].touched && !blockchainForm.controls['state'].valid"> State/Province field can not be blank</span>
                 </div>
 
                 <div class="form-group">
-                  <input name="zip" class="form-control" type="text" [formControl]="blockchainForm.controls['zip']" (blur)="_commonservices.inputUntouch(blockchainForm,'zip')" placeholder="zip">
-                  <span class="has-error" *ngIf ="blockchainForm.controls['zip'].touched && !blockchainForm.controls['zip'].valid"> ZipCode field can not be blank</span>
+                  <input name="zip" class="form-control" type="text" placeholder="zip">
                 </div>
 
               </div>
