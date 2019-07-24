@@ -18,6 +18,8 @@ import { FunnelComponent } from './funnel/funnel.component';
 
 import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
 import { SignupforblockchainComponent } from './signupforblockchain/signupforblockchain.component';
+import { NexgentestingComponent } from './nexgentesting/nexgentesting.component';
+ 
 
 
 const appRoutes: Routes = [
@@ -33,6 +35,7 @@ const appRoutes: Routes = [
     { path: 'funnel', component: FunnelComponent},
     { path: 'aspire-payment-suite', component: AspirePaymentSuiteComponent},
     { path: 'signupforblockchain', component: SignupforblockchainComponent},
+     { path: 'nexgentesting', component: NexgentestingComponent}
 ];
 
 @NgModule({

@@ -24,6 +24,8 @@ import { RouterModule } from '@angular/router';
 import { ReadmoreComponent } from './readmore/readmore.component';
 import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
 import { SignupforblockchainComponent } from './signupforblockchain/signupforblockchain.component';
+import { NexgentestingComponent } from './nexgentesting/nexgentesting.component';
+ 
 
 @NgModule({
   declarations: [
@@ -37,7 +39,7 @@ import { SignupforblockchainComponent } from './signupforblockchain/signupforblo
     PlatformFeaturesComponent,
     OurteamComponent,
     ContactusComponent, 
-    FunnelComponent, ReadmoreComponent, DialogDataExampleDialog, AspirePaymentSuiteComponent, SignupforblockchainComponent
+    FunnelComponent, ReadmoreComponent, DialogDataExampleDialog, AspirePaymentSuiteComponent, SignupforblockchainComponent, NexgentestingComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
