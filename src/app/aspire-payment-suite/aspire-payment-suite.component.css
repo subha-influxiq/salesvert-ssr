@@ -1050,7 +1050,10 @@ a{cursor: pointer; outline: none;}
     }
     
     @media only screen and (max-width: 1199px) {
-    
+        .listsbanner .imgicon span {
+            display: inline-block;
+            width: 100%;
+        }
         .topbannerhomeleft p span {
             padding: 20px 0px 0 0px;
         }

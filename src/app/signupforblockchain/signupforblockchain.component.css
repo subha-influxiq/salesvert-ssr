@@ -1,0 +1,131 @@
+/*****signup for block chain block1 css start****/
+.headernewcls {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarwrapperleftnew, .navbarwrapperightnew {
+    position: relative;
+}
+.navbarnewclssignupwrapper .navbar-brand-wrapper {
+    width: auto;
+}
+.navbarnewclswrapper .headernewcls .navbar-brand-wrapper .navbar-brand {
+    height: auto;
+    padding: 0px 15px;
+}
+.signupforblockchainblocknavwrapper.signupforblockchainblocknavwrappernew1.signupforblockchainblocknavnew1 .new1 .headernewclslogo {
+    width: auto !important;
+}
+
+.signupforblockchainblocktop {background-color:#1f1d1d; padding-top: 15px; padding-bottom:15px}
+.signupforblockchainblocktop p {text-align: center; color:#f3f3f3; font-family: "RalewayRegular"; font-size: 14px}
+.signupforblockchainblocknav {background-color:#000000 !important; padding-top: 15px; padding-bottom:15px}
+.signupforblockchainblocknavwrapper {width: 1304px; margin: 0 auto; display: block}
+.signupforblockchainblocknavwrapper .headernewclslogo {width: 310px; height: auto}
+.signupforblockchainblocknavwrapper.signupforblockchainblocknavwrappernew1.signupforblockchainblocknavnew1 .headernewclslogo {width: 400px}
+.signupforblockchainblocknavwrapper.signupforblockchainblocknavwrappernew1.signupforblockchainblocknavnew1 .new1 .headernewclslogo {width: auto !important}
+.fbartistxpnavwrapper .headernewcls .navbar-brand-wrapper .navbar-brand .headernewclslogo {width: 400px; }
+.signupforblockchainblocknavwrapper.signupforblockchainblocknavwrappernew1.contactusnew1 .headernewclslogo {width: auto !important}
+.signupforblockchainblocknavwrapper.signupforblockchainblocknavwrappernew1.contactusnew1 .navbarwrapperightnew1 .navlisthide.show .headernewnavbarcls li:last-child {display: none}
+.signupforblockchainblocknavwrapper .headernewclslogo img {max-width: 100%}
+.signupforblockchainblocknavwrapper .navbarnewclswrapper .headernewnavbarcls li a {color:#fff !important}
+.signupforblockchainblocknavwrapper .navbarnewclswrapper .headernewnavbarcls li a:hover {color:#000 !important}
+.signupforblockchainblocknavwrapper .navbar {margin-bottom: 0px;min-height: 60px}
+.signupforblockchainblocknavwrapper .headernewcls .navbar-brand {padding:0; height: auto}
+.signupforblockchainblocknavwrapper .navbar-collapse.collapse {padding-bottom: 0px !important}
+.signupforblockchainblock1 .titletxt1 {font-family: "Ralewaybold";font-size: 100px;color: #fff;padding: 0;margin: 10px 0 20px 0;line-height: 100px;letter-spacing: 0px;text-align: center !important;width: 100%;text-transform: uppercase;position: relative;z-index: 9999;text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);}
+.signupforblockchainblock1 .bannerleftnew span.dtcls {float: right;font-family: "HelveticaNormal";font-size: 24px;color: #fff;padding: 0;font-weight: normal;}
+.signupforblockchainblock1 .bannerleftnew span.dtcls .span2 {background-color: transparent !important;display: inline-block;border: none !important;width: 60px;text-align: center;border-bottom: 1px dashed #fff !important;}
+.signupforblockchainblock1 .bannerleftnew span.dtcls .span1 {background-color: transparent !important;display: inline-block;border: none !important;width: 30px;text-align: center;border-bottom: 1px dashed #fff !important;}
+.signupforblockchainblock1 .bannerleftnew .titletxt2 {font-family: "Ralewaybold";font-size: 36px;color: #fff000;padding: 0;margin: 0px 0 20px 38%;line-height: 42px !important;letter-spacing: 0px;text-align: left !important;text-transform: none !important;position: relative;z-index: 9999;}
+.signupforblockchainblock1 .bannerleftnew .titletxt3 {font-family: "Ralewaybold";font-size: 36px;color: #fff;padding: 0;text-transform: uppercase !important;font-size: 36px;font-weight: bold;margin: 0 0 0 38%;margin-top: 48px;position: relative;z-index: 9999;}
+.signupforblockchainblock1 {background: #0e0517 url(../../assets/images/signupblockchainformbg.jpg) no-repeat left top !important;background-size: 100% 150% !important;min-height: 1px;position: relative;padding-top: 20px;overflow: hidden;padding-bottom: 25px;}
+.signupforblockchainblock1 .communitysignupnewblock1left {background-image: none !important;width: 72%}
+.signupforblockchainblock1 .toprightgradientbg img {opacity: 1 !important; max-width: 100%}
+.signupforblockchainblock1 .formtoptxt {font-family: "HelveticaBold";font-size: 44px;color: #fff000;padding: 0;margin: 78px 0 40px 0;line-height: 48px;letter-spacing: 0px;text-align: center !important;width: 100%;text-transform: uppercase;position: relative;z-index: 9;text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);}
+.signupforblockchainblock1 .communitysignupnewblock1inner {display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;flex-wrap: nowrap;justify-content: space-between;width: 79%;margin: 0 auto;}
+.communitysignupnewblock1.signupforblockchainblock1 .btnnewwrapper {background: rgba(21,21,25,1);background: -moz-linear-gradient(top, rgba(21,21,25,1) 0%, rgba(0,0,6,1) 100%);background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(21,21,25,1)), color-stop(100%, rgba(0,0,6,1)));background: -webkit-linear-gradient(top, rgba(21,21,25,1) 0%, rgba(0,0,6,1) 100%);background: -o-linear-gradient(top, rgba(21,21,25,1) 0%, rgba(0,0,6,1) 100%);background: -ms-linear-gradient(top, rgba(21,21,25,1) 0%, rgba(0,0,6,1) 100%);background: linear-gradient(to bottom, rgba(21,21,25,1) 0%, rgba(0,0,6,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151519', endColorstr='#000006', GradientType=0 );-webkit-box-shadow: 3px -1px 13px -2px rgba(0,0,0,0.46);-moz-box-shadow: 3px -1px 13px -2px rgba(0,0,0,0.46);-ms-box-shadow: 3px -1px 13px -2px rgba(0,0,0,0.46);text-align: center;}
+.communitysignupnewblock1.signupforblockchainblock1 .btnbuyticket_genuserlan {font-size: 24px;line-height: 30px;padding: 16px 8px 14px;}
+.communitysignupnewblock1.signupforblockchainblock1 .newwrapper {width: 1755px;}
+.signupforblockchainblock1 .cslandingformheader h1 {margin: 0;padding: 0px;text-transform: uppercase;font-size: 44px;font-family: "Ralewaybold";color: #fff;text-shadow: 2px 3px 9px rgba(0,0,0,0.45);}
+.signupforblockchainblock1 .cslandingformheader h1 span {font-size: 36px;display: block;}
+.signupforblockchainblock1 .communitysignupnewblock1right {position: relative;z-index: 9999;width: 28%;}
+.signupforblockchainblock1 .communitysignupnewblock1right .formdiv {width: 380px;background: #15100d !important;padding: 13px 13px 20px;}
+.signupforblockchainblock1 .cslandingformwrapper {background-color: #15100d !important;}
+.signupforblockchainblock1 .communitysignupnewblock1right .formdiv .form-control,
+.signupforblockchainblock1 .communitysignupnewblock1right .formdiv textarea.form-control {height: 40px;line-height: 40px;font-size: 18px;}
+.signupforblockchainblock1 .toprightgradientbg {right: -6px;z-index: 999;}
+.manimgwrapper {position: absolute;left: 0;top: -28%;z-index: 999;width: 100%;}
+.signupforblockchainblock1 .imgmanleft {position: absolute;left: -40%;top: 0;z-index: 999;}
+.signupforblockchainblock1 .manhand {position: absolute;left: -39px;top: 689px;z-index: 9999;}
+.signupforblockchainblock1 .vbllist1 {position: absolute;left: 7%;width: 840px;z-index: 9999;margin-top: 70%;}
+.signupforblockchainblock1 .vbllist1 li {background: url(../../assets/images/signupforblockchainvbllist_arrow.png) no-repeat right bottom;background-size: 100% 100%;position: relative;height: 97px;width: 100%;margin-bottom: 10px;padding: 20px 6% 32px 11% !important;font-family: "Helvetica";font-weight: bold;font-size: 24px;line-height: normal;color: #203b70;display: inline-flex;justify-content: flex-start;}
+.signupforblockchainblock1 .vbllist1 li span {font-family: "Ralewaybold";font-size: 36px !important;color: #fff !important;padding: 0;line-height: 36px;letter-spacing: 0px;text-transform: uppercase;text-shadow: 2px 6px 7px rgba(0, 0, 0, 0.6);padding-right: 20px;}
+.signupforblockchainblock1 .iconblockchain {position: absolute;right: -10%;top: -35%;z-index: 99999;}
+.signupforblockchainblock1 .vblb6img5 {position: absolute;left: 0;top: 85%;z-index: 99999;background: url(../../assets/images/blockchainbtn_arrow.png) no-repeat right bottom;width: 924px;height: 125px;}
+.signupforblockchainblock1 .vblb6img5 h2 {font-family: "Ralewaybold";font-size: 48px;color: #0c0000 !important;padding: 0;line-height: 48px;letter-spacing: 0px;text-align: center !important;width: 90%;margin: 30px auto;text-transform: uppercase;text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);}
+.signupforblockchainblock1 .communitysignupnewblock1right {position: relative;z-index: 9999;width: 28%;}
+.signupforblockchainblock1 .communitysignupnewblock1right .formdiv .form-group {margin-bottom: 14px;display: inline-block;width: 100%;}
+.signupforblockchainblock1 .bannerleftnew {width: 100%;}
+.signupforblockchainblock1 .bannerleftnew .titletxt3 span {width: 337px;display: block;margin-left: 16%;margin-top: 2px;}
+.signupforblockchainblock1 .bannerleftnew .titletxt3 span img {max-width:100%}
+
+
+.cslandingformheader {background-color: #fc8d00;padding: 11px 7px;text-align: center;border: 1px solid #000;border-bottom: 0px !important;}
+.cslandingformwrapper {background-color: #1e2223;}
+.cslandingformheader h1 {margin: 0;padding: 0px;text-transform: uppercase;font-size: 36px;font-family: "TypoSlabIrregularDemo";color: #fff;text-shadow: 2px 3px 9px rgba(0,0,0,0.45);}
+.cslandingformheader h3 {margin: 0;padding: 0px;text-transform: uppercase;font-size: 17px;font-family: "TypoSlabIrregularDemo";color: #000;}
+.cslandingforminnerwrapper {padding: 21px 19px;}
+
+
+
+.signupforblockchainblock1 .communitysignupnewblock1right .formdiv .form-control, .signupforblockchainblock1 .communitysignupnewblock1right .formdiv textarea.form-control {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.communitysignupnewblock1right .formdiv select {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(137, 137, 143) !important;
+}
+.communitysignupnewblock1right .formdiv .form-control, .communitysignupnewblock1right .formdiv textarea.form-control {
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 30px;
+    resize: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(46, 50, 52);
+    border-image: initial;
+    padding: 0px 7px;
+    border-radius: 0px !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset;
+    padding: 6px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.imgresponsive{width: 100%;}
+/*--------- End signupblockchain css ------------*/

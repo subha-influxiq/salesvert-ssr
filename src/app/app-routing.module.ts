@@ -17,6 +17,7 @@ import { ContactusComponent } from "./contactus/contactus.component";
 import { FunnelComponent } from './funnel/funnel.component';
 
 import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
+import { SignupforblockchainComponent } from './signupforblockchain/signupforblockchain.component';
 
 
 const appRoutes: Routes = [
@@ -31,6 +32,7 @@ const appRoutes: Routes = [
     { path: 'contactus', component: ContactusComponent},
     { path: 'funnel', component: FunnelComponent},
     { path: 'aspire-payment-suite', component: AspirePaymentSuiteComponent},
+    { path: 'signupforblockchain', component: SignupforblockchainComponent},
 ];
 
 @NgModule({

@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MetaModule } from '@ngx-meta/core';
 import { DemoMaterialModule} from '../app/material-module';
 import { HttpClientModule } from '@angular/common/http';
-import { ModalModule } from 'ngx-bootstrap/modal';
+//import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 /* Page component */
@@ -23,6 +23,7 @@ import { FunnelComponent, DialogDataExampleDialog} from './funnel/funnel.compone
 import { RouterModule } from '@angular/router';
 import { ReadmoreComponent } from './readmore/readmore.component';
 import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
+import { SignupforblockchainComponent } from './signupforblockchain/signupforblockchain.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payme
     PlatformFeaturesComponent,
     OurteamComponent,
     ContactusComponent, 
-    FunnelComponent, ReadmoreComponent, DialogDataExampleDialog, AspirePaymentSuiteComponent
+    FunnelComponent, ReadmoreComponent, DialogDataExampleDialog, AspirePaymentSuiteComponent, SignupforblockchainComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -49,7 +50,7 @@ import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payme
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
-    ModalModule.forRoot(),
+    //ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
