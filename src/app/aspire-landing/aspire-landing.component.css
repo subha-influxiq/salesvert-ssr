@@ -547,6 +547,7 @@ a{cursor: pointer; outline: none;}
     background-position : 0 -24px;
 }
 
+
 .formclsnew input[type=radio]:not(old):checked + label{
     background-position : 0 -48px;
 }
