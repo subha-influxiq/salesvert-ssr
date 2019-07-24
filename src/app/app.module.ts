@@ -26,6 +26,14 @@ import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payme
 import { SignupforblockchainComponent } from './signupforblockchain/signupforblockchain.component';
 import { NexgentestingComponent } from './nexgentesting/nexgentesting.component';
 import { AspireLandingComponent } from './aspire-landing/aspire-landing.component';
+import { CompchainFunnelComponent } from './compchain-funnel/compchain-funnel.component';
+import { AudiodeadlineambassadorfunnelComponent } from './audiodeadlineambassadorfunnel/audiodeadlineambassadorfunnel.component';
+import { RecruitmentFunnelComponent } from './recruitment-funnel/recruitment-funnel.component';
+import { NmsFunnelDoctorsComponent } from './nms-funnel-doctors/nms-funnel-doctors.component';
+import { TrinitiLandingComponent } from './triniti-landing/triniti-landing.component';
+import { VivacityRecoverLandingComponent } from './vivacity-recover-landing/vivacity-recover-landing.component';
+import { VivacityBalanceLandingComponent } from './vivacity-balance-landing/vivacity-balance-landing.component';
+import { CobrazolLandingComponent } from './cobrazol-landing/cobrazol-landing.component';
 
 @NgModule({
   declarations: [
@@ -37,8 +45,21 @@ import { AspireLandingComponent } from './aspire-landing/aspire-landing.componen
     FooterComponent,
     PlatformFeaturesComponent,
     OurteamComponent,
-    ContactusComponent, 
-    FunnelComponent, ReadmoreComponent, DialogDataExampleDialog, AspirePaymentSuiteComponent, SignupforblockchainComponent, NexgentestingComponent,AspireLandingComponent
+    ContactusComponent,
+    DialogDataExampleDialog, 
+    AspirePaymentSuiteComponent, 
+    SignupforblockchainComponent,
+    NexgentestingComponent,
+    AspireLandingComponent, 
+    CompchainFunnelComponent, 
+    AudiodeadlineambassadorfunnelComponent,
+    FunnelComponent,    
+    ReadmoreComponent, 
+    RecruitmentFunnelComponent, 
+    NmsFunnelDoctorsComponent, 
+    TrinitiLandingComponent, 
+    VivacityRecoverLandingComponent, 
+    VivacityBalanceLandingComponent, CobrazolLandingComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
