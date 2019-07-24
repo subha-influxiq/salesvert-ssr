@@ -18,7 +18,12 @@ import { FunnelComponent } from './funnel/funnel.component';
 
 import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
 import { SignupforblockchainComponent } from './signupforblockchain/signupforblockchain.component';
+<<<<<<< HEAD
+import { NexgentestingComponent } from './nexgentesting/nexgentesting.component';
+ 
+=======
 import { AspireLandingComponent } from './aspire-landing/aspire-landing.component';
+>>>>>>> c4fa57510a8c20b5f0dee79b0ab817b7335a62c3
 
 
 const appRoutes: Routes = [
@@ -34,7 +39,11 @@ const appRoutes: Routes = [
     { path: 'funnel', component: FunnelComponent},
     { path: 'aspire-payment-suite',  component: AspirePaymentSuiteComponent},
     { path: 'signupforblockchain', component: SignupforblockchainComponent},
+<<<<<<< HEAD
+     { path: 'nexgentesting', component: NexgentestingComponent}
+=======
     { path: 'aspire-landing', component: AspireLandingComponent},
+>>>>>>> c4fa57510a8c20b5f0dee79b0ab817b7335a62c3
 ];
 
 @NgModule({
