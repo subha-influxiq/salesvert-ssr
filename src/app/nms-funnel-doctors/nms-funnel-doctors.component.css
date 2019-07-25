@@ -1,0 +1,37 @@
+ 
+.nmsfunneldoctor_block1 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: -moz-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(4,169,188,1)), color-stop(100%, rgba(2,52,102,1)));
+    background: -webkit-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -o-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -ms-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: linear-gradient(111deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04a9bc', endColorstr='#023466',GradientType=1 );
+    padding-top: 26px;
+    padding-bottom: 23px;
+}
+.container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    float: none!important;
+}
+.nmsfunneldoctor_block_wrapper {
+    width: 1651px;
+    margin: 0 auto;
+    display: block;
+}
+.nmsfunneldoctor_block1 h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'RalewayBold';
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}

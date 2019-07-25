@@ -53,7 +53,7 @@
     color: #15191e;
     font-family: 'RalewaySemiBold';
 }
-.alanding_block2_wrappertext p {
+.alanding_block2_wrappertext h4 {
     margin: 0px;
     padding: 35px 0 30px 0;
     font-size: 18px;
@@ -69,13 +69,14 @@
     color: #fff!important;
     text-decoration: none!important;
     text-transform: uppercase;
-    font-family: 'RalewayBold';
+    
     font-size: 30px;
     text-align: center;
     line-height: 58px;
     display: block;
     margin: 20px 0 0 660px;
 }
+.alanstartedbtn a{font-family: 'RalewayBold';}
 .alanding_topblock_con_left {
     width: 660px;
     float: left;
@@ -121,12 +122,12 @@
     font-family: 'RalewaySemiBold';
     line-height: 30px;
 }
-.alanding_topblock_con_left label {
+.alanding_topblock_con_left .confirmmessage  {
     margin: 0;
     padding: 0px;
     font-size: 30px;
     color: #0b0c0c;
-    font-family: 'RalewayBold';
+    font-family: 'RalewaySemiBold';
     text-transform: uppercase;
 }
 .a_new_landing_img2 {
@@ -494,7 +495,7 @@
 
 @media screen and (max-width: 1600px){ 
     .a_new_landing_img1 { left: -220px; }
-    .alanding_bootmblock_formwrapper[_ngcontent-serverApp-c1] { padding: 28px 200px 28px 28px; }
+    .alanding_bootmblock_formwrapper { padding: 28px 200px 28px 28px; }
 }
 @media screen and (max-width: 1580px){ 
 .alanding_topblock_con { margin-right: 15px; }
@@ -511,7 +512,7 @@
 .alanding_arrowdiv  h1 { padding: 67px 75px 0 0; }
 .a_new_landing_img1 { left: -200px; }
 .alanding_block2 { background-position: 170% bottom; }
-.landing_form_left[_ngcontent-serverApp-c1] { width: 400px; }
+.landing_form_left { width: 400px; }
 }
 
 @media screen and (max-width: 1520px){ 
@@ -550,7 +551,7 @@
 @media screen and (max-width: 1380px){ 
     .alanding_block2_wrappertext { width: 655px; }
     .alanding_block2 { background-position: 245% bottom; }
-    
+    .landing_form_right { width: 53%; }
 }
 @media screen and (max-width: 1340px){ 
     .alanding_topblock_con_left h2 { font-size: 60px; }
@@ -563,6 +564,9 @@
     .alanding_block3_wrapper h2 { font-size: 60px; }
     .consublandinright { width: 400px; }
     .consublandin label { line-height: 24px; }
+}
+@media screen and (max-width: 1320px){ 
+    .landing_form_right { width: 48%; }
 }
 @media screen and (max-width: 1300px){ 
 .alanding_arrowdiv { width: 450px; }
@@ -584,6 +588,9 @@
 .alanding_block2_wrappertext { width: 550px; }
 .alanding_block2_wrappertext h2 {font-size: 48px; }
 .alanding_block2 { background-position: 684% bottom; }
+.landing_form_left {
+    width: 340px;
+}
 }
 @media screen and (max-width: 1220px){ 
 .a_new_landing_img1 { left: -370px; }
@@ -592,8 +599,36 @@
 }
 }
 @media screen and (max-width: 1199px){ 
-.alanding_block2 {
-    background-position: center top;
+.a_new_landing_img1 { display: none; }
+.alanding_topblock_con_left {
+    width: 100%;
+}
+.a_new_landing_img2 { right: 0; }
+.alanding_topblock_con {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+}
+.alanding_arrowdiv {
+    right: 0;
+    background: #00c314;
+    height: auto;
+    border-radius:5px;
+    width: 480px;
+    margin: 0 auto;
+}
+.alanding_arrowdiv h1 { padding: 20px 30px; text-align: center; font-size: 24px;}
+.alanding_block2 { background-position: center top; background-size: 100%; }
+.alanding_topblock_con_right {
+    width: 100%;
+}
+.alanding_topblock_bootomtext {
+    width: 90%;
+    margin: 20px auto;
+    float: none;
+}
+.alanstartedbtn {
+     margin: 20px auto;
 }
 .alanding_block2_wrappertext {
     background-position: center top;
@@ -604,25 +639,34 @@
     width: 90%;
     margin: auto;
     text-align: center;
+    text-align: center;
 }
-.alanding_block3 {
-    
+.alanstartedbtn2 { margin: 20px auto; margin-bottom: 50px; }
+.alanding_block3_wrapper h2, .alanding_block3_wrappersub h3 { text-align: center; }
+
+.alanding_block3 {    
     min-height: auto;
-    padding-top: 92%;
+    padding-top: 103%;
     background-position: 2% top!important;
     background-size: 120%;    margin-top: 0;
 }
+.consublandinright { width: 50%; }
 .alanding_block3_wrapper {
     width: 90%;
     margin: 0 auto; float: none;
 }
 .alanding_block3_wrappersub h3 { width: 100%; }
 .consublandinright {
-    width: 55%;
+    width: 53%;
 }
 .alanding_block3_wrappersub { margin: 38px 0 0; width: auto; }
 .consublandinleft { width: 45%; }
 .consublandin h6 { font-size: 26px; }
+.alanding_bootmblock_formwrapper { padding: 28px; background: none; }
+.landing_form_left { width: 100%; text-align: center; }
+.landing_form_right { width: 100%; background: none; }
+.alandingsubbtn2 { float: none; margin: 0 auto; }
+.alanding_block3_wrapper h2 { margin-top: 0;}
 }
 
 @media screen and (max-width: 991px){ 
@@ -630,10 +674,13 @@
     .alanding_block3_wrappersub h3 { text-align: center; }
     .consublandinleft { width: 100%; text-align: center; }
     .consublandinright {  width: 100%; text-align: center;}
-    .consublandin label {  background:none; }
-    .consublandin { margin-bottom: 20px; }
-    .consublandin label::first-letter{  background: url(/assets/images/a_new_landing_bullate.png) no-repeat center; padding-left: 40px; }
+    .consublandin label { background-position: center top; padding: 15px 0 20px 0; }
+    .consublandin { margin-bottom: 20px; } 
      .alanstartedbtn2 { margin: 40px auto; margin-top: 0; }
+     .alanding_block3_wrapper h2 { font-size: 48px; }
 }
 
 
+@media screen and (max-width: 600px){ 
+.alanding_arrowdiv { width: 100%; }
+}
