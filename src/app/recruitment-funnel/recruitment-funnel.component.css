@@ -2,7 +2,7 @@
 
 /*------------------------landing page----------------------*/
 
-
+/*
 .landing_top1_div1{ width: 100%; display: inline-block; padding: 0; margin: 0; background: rgba(233,249,252,1);
     background: -moz-linear-gradient(left, rgba(233,249,252,1) 0%, rgba(255,255,255,1) 13%, rgba(255,255,255,1) 74%, rgba(233,249,252,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(233,249,252,1)), color-stop(13%, rgba(255,255,255,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(100%, rgba(233,249,252,1)));
@@ -536,11 +536,10 @@
     color: #555;
 }
 
-/*------------------------landing page----------------------*/
 
 
 
-/*Home page media css----*/
+
 @media only screen and (max-width: 1920px) {
     .training_prospector_video_body2_fluidcon{ width: 100%!important; margin: 0 auto!important;}
 }
@@ -570,7 +569,7 @@
     .menu_block2_link .menu_block2_ullink li a {
         background-size: 18px!important;
     }
-/*.temp-home_mainwrapper{ width: 100%; height: 685px;  background-size: 1800px; }*/
+
 
     .menu_block2 .menu_block2_logo{margin-left:0%;   margin-top: 0;}
 }
@@ -603,8 +602,7 @@
     .contract_waitingdiv_block1{ padding-top: 0px;}
 
     .information-form_main{ width: 1200px; margin: 0 auto; margin-top: 0px;}
-    /*
-    .information-form_wrapper{ background-position: 880px bottom;}*/
+    
     .welcome_page_topbanner .welcome_page_topbanner_wrapper {
         width: 625px;
         padding: 25px 0 25px 100px;
@@ -624,7 +622,7 @@
     .temp-home_mainwrapper {
         height: 490px;
     }
- /*   .temp-home_mainwrapper{ width: 100%; height: 516px;  background-size: 1800px; background-position: -200px top; }*/
+
     .contact_form_block{ margin: 28px auto;}
     .contact_form_block .contact_form_left .form-control{ height: 44px; margin-bottom: 16px;}
     .contact_form_block .contact_form_left .form-control2{ height: 195px; margin-bottom: 16px;}
@@ -675,14 +673,12 @@
 
     /*form#lead_management_form.te .span6.first-span {
         width: 550px!important;
-    }*/
+    }
 
-   /* .updateleadwrapper .second-span{ width: 324px!important;}*/
 
     .wrapperright{  padding: 0 0 0 18px!important;}
 
-  /*  .notemain .tab .tablinksa{    padding: 10px 23px!important;}
-*/
+
     .home_bannertext{ padding-top: 4px!important; padding-bottom: 6px!important;}
 
     .home_bannertext h2{ font-size: 40px;}
@@ -704,7 +700,6 @@
     .information-form_wrapper .information-formconbox{ margin-top: 16px; margin-bottom:16px;}
     .information-form_wrapper .information-form-textcon{ padding-top: 16px;}
 
-   /* .menu_block2_link .menu_block2_ullink li{ margin: 0 12px;}*/
     .menu_block2 .menu_block2_logo {
         margin-left: 0;
         margin-top: 0;
@@ -720,8 +715,6 @@
 
     .leadlist_form_body{ width: 90%; margin: 20px auto; margin-bottom: 0px;}
 
- /*   .rp_db_inbox_bottom .pr_db_search_box{ width: 83.1%;}*/
-   /* .rp_messagebtn{ width: 30%;}*/
 
     .rp_db_inbox_bottom .pr_db_search_box .searchinput{ width: 96%;}
     .rp_db_inbox_bottom .pr_db_search_box .searchbtn{ float: right;}
@@ -777,11 +770,7 @@
     .training_prospector_video_body2{
         width: 1290px !important;}
 
-    /*.training_prospector_video_body2 .tp_videodiv2 {
-        width: 535px;
-        float: left;
-        margin-left: 10px;
-    }*/
+   
 
     .training_prospector_video_body3{  width: 1290px !important; background-size: 58%!important; }
 
@@ -822,10 +811,6 @@
         float: left;
     }
 
-/*    .training_prospector_video_body5_fluidcon {
-        width: 100% !important;
-        background-size: 43%;
-    }*/
     .training_prospector_video_body6 {
         width: 1290px !important;}
 
@@ -880,7 +865,6 @@
         font-size: 15px;
     }
 
-   /* .repdashboardchart{ height: 371px;}*/
 }
 
 @media only screen and (max-width: 1500px) {
@@ -969,7 +953,7 @@
     .lead_management_banner_text h3{padding: 10px 0 0 0;}
 
 
-    /*---------*/
+
 
     .manage_contact_banner_wrapper {
         width: auto;
@@ -1080,9 +1064,7 @@
     .page-lead_management .docupdate .wrapperleft {
         width: 425px !important;
     }
- /*   .notemain .tab .tablinksa {
-        padding: 10px 9.6px!important;
-    }*/
+
 }
 
 @media only screen and (max-width:1400px) {
@@ -1101,7 +1083,7 @@
 
 @media only screen and (max-width: 1400px) {
     .temp-home_mainwrapper{    height: 532px;    background-size: 108%;}
-/*    .temp-home_mainwrapper{ width: 100%; height: 383px;  background-size: 1600px; background-position: -200px top; }*/
+
     .contact_form_block{ margin: 15px auto; width: 80%!important;}
 
 
@@ -1178,12 +1160,7 @@
     .training_prospector_video_body2{
         width: 1200px !important;}
 
- /*   .training_prospector_video_body2 .tp_videodiv2 {
-        width: 490px;
-        float: left;
-        margin-left: 10px;
-    }
-*/
+
     .training_prospector_video_body3{  width: 1200px !important; background-size: 58%!important; }
 
 
@@ -1203,13 +1180,7 @@
 
     .new_headinglink a{ font-size: 14px; padding-top: 8px;}
 
-    /*
-    .tp_videodivnewcon h2{ font-size: 24px; }
-
-    .tp_videodivnewcon h2 span {
-        font-size: 13px;
-    }
-    */
+  
 
     .training_prospector_video_body5 {
         width: 1200px !important;
@@ -1221,10 +1192,7 @@
         float: left;
     }
 
-/*    .training_prospector_video_body5_fluidcon {
-        width: 100% !important;
-        background-size: 43%;
-    }*/
+
     .training_prospector_video_body6 {
         width: 1200px !important;}
 
@@ -1445,7 +1413,6 @@
 
     .editareanew_sub {
         width: 52px;
-        /*background: url(https://nexmedsolutions.net/system/themes/nexmedicalbackend/images/welcome_border2.pnghoverarrow.png) no-repeat left bottom;*/
         padding-right: 0px;
         position: absolute;
         margin-top: -45px!important;
@@ -1828,8 +1795,6 @@
 
 
 
-    /*-------*/
-
     .manage_contact_banner{   width:100%; background-size: 220%; height: auto; padding-top: 36%;  }
 
     .lead_management_banner_wrapper {
@@ -1976,8 +1941,6 @@
     .information-form_wrapper .information-formconbox{ width: 700px; float: none; margin: 0 auto;}
 
 
-
-    /*.information-form_wrapper .information-formconbox .form-group{ width: 330px; float: left; margin: 0 20px 18px 0px;}*/
 
     .information-form_wrapper .information-form-textcon{ width: 100%; float: none; padding-top: 40px; margin-bottom: 20px; padding-left: 0px; text-align: center;}
 
@@ -2165,9 +2128,6 @@
         padding: 8px 1% 1% 1%!important;  border-top: 1px solid #eeefef;
     }
 
-  /*  .notemain .tab .tablinksa {
-        padding: 10px 5.8px!important;   font-size: 14px!important;
-    }*/
     .updateleadwrapper {
         width: 600px!important;
     }
@@ -2183,10 +2143,7 @@
         padding: 8px 1% 1% 1%!important;  border-top: 1px solid #eeefef;
     }
 
- /*   .notemain .tab .tablinksa {
-        padding: 10px 5.8px!important;   font-size: 14px!important;
-    }
-*/
+
 
 
     .information-form_wrapper .information-formconbox{ width: 100%;}
@@ -2216,7 +2173,7 @@
     .home_top_menu2 .topmenu2_left{ width: 100%; margin: 0 auto; padding: 0px!important; margin-top: 14px; margin-bottom: 0px!important; float: none;}
     .home_top_menu2 .topmenu2_left .homenex_logo{ width: 182px; float: none; margin: 0 auto; display: block; }
 
-    .home_top_menu2 .topmenu2_right {/*background: #1caf62;*/  background: #1d77bc; margin-top: 25px; padding: 0px; width: 100%; float: none;}
+    .home_top_menu2 .topmenu2_right {  background: #1d77bc; margin-top: 25px; padding: 0px; width: 100%; float: none;}
     .home_top_menu2 .topmenu2_right .navbar { width: 100%;}
 
     .home_top_menu2 .topmenu2_right .nav{ width: 100%; margin: 0; padding: 0; }
@@ -2234,7 +2191,6 @@
     .navbar-default .navbar-toggle{ background: #fff; box-shadow: none; border-color:#1979c3;}
     .home_top_menu2 .topmenu2_right .navbar li{ padding-left: 0px;}
 
-    /*Toggle navbar Mobile*/
 
 
     .navbar-header {
@@ -2266,7 +2222,7 @@
 
 
     .navbar-collapse {border-top: 1px solid #fff!important;}
-    /*Toggle navbar Mobile*/
+ 
 
 
     .mailinboxheader{  margin: 6px auto; margin-top:6px;}
@@ -2314,11 +2270,6 @@
 
     .tp_videodivnewcon .videoWrapper_body .tp_video_link{ width: 280px; background-position: center 90%; padding: 10px; text-align: center; line-height: 20px; padding-bottom: 40px;}
 
-   /* .tp_videodivnewcon h2{ text-align: center;}*/
-   /* .newformclsinner:last-child {
-        margin: 0 auto !important;
-        display: block !important;
-    }*/
 
     .filtered_rep_list label{display: block;}
     .ticketsearchareanew .formsearch input[type="text"] {
@@ -2534,9 +2485,6 @@
     }
 
 
- /*   .notemain .tab .tablinksa {
-        padding: 10px 5px!important;   font-size: 14px!important; width: 100%; margin-bottom: 1px!important;
-    }*/
 
     .wrapperleft .form-group {
         float: left;
@@ -2546,12 +2494,6 @@
 
 }
 
-
-/*-------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------------*/
-/*--------------------------------new front hand ---------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width:1420px) {
 
@@ -2729,7 +2671,7 @@
 
 
     .doctorlist_new_input_popupdiv1 {
-        /*width: 90%; */ padding-top: 10px;
+        padding-top: 10px;
     }
 
     .new_popup_labeldiv{ padding-bottom: 0px;}
@@ -2768,9 +2710,7 @@
 
     .about_banner_block h2{background:#333; text-align:center; padding: 25px 25px 20px 25px; font-size: 60px; color: #fff; text-transform: uppercase;  font-family: 'ralewaybold'; margin: 298px 0 0 0; display: block;}
 
-    /*  .adddoctor_banner_block{ background-position: right top; height: 410px;}
-      .adddoctor_banner_block h2{background:#333; text-align:center; padding: 25px 25px 20px 25px; font-size: 60px; color: #fff; text-transform: uppercase;  font-family: 'ralewaybold'; margin: 298px 0 0 0; display: block;}
-  */
+   
 
     .resources_banner_block{ background-position: right top; height: 410px;}
     .resources_banner_block h2{background:#333; text-align:center; padding: 25px 25px 20px 25px; font-size: 60px; color: #fff; text-transform: uppercase;  font-family: 'ralewaybold'; margin: 298px 0 0 0; display: block;}
@@ -2845,7 +2785,7 @@
     .contact_form_right h2{ text-align: center; background-position: center top; padding: 35px 0 0 0; margin-bottom: 15px; margin-top: 15px;}
     .contact_form_right h3{ text-align: center; background-position: center top; padding: 35px 0 0 0; margin-bottom: 15px;  margin-top: 15px;}
     .contact_form_right h4{ text-align: center; background-position: center top; padding: 35px 0 0 0;  margin-top: 15px;}
-/*    .consubbtn{ display: block!important; float: none!important; margin: 0 auto!important;}*/
+
 
 
     .contract_waitingdiv_block1{ background-size: 280px; background-position: center bottom; padding:20px 0 512px 0; text-align: center;}
@@ -3449,11 +3389,7 @@
     .about_banner_block{ background-position: -1020px top;}
 
     .nms100_wrapperblock .nms100_block_left h3{ font-size: 50px;}
-    /* .adddoctor_banner_block h2{margin: 214px 0 0 0; font-size: 40px;}
-     .adddoctor_banner_block {
-         background-position: right top;
-         height: 304px;
-     }*/
+  
 
 
     .resources_banner_block h2{margin: 214px 0 0 0; font-size: 40px;}
@@ -3563,7 +3499,6 @@
 
     .about_banner_block h2{margin: 214px 0 0 0; font-size: 40px;}
 
-    /* .adddoctor_banner_block h2{margin: 214px 0 0 0; font-size: 40px;}*/
 
     .resources_banner_block h2{margin: 214px 0 0 0; font-size: 40px;}
 
@@ -3589,8 +3524,6 @@
 
 
 
-
-    /*--------*/
     .nms100_banner_block {
         background-position: -520px top;
     }
@@ -3612,10 +3545,6 @@
     #quiz .answer_choice label{ width:220px; display: block; float: left;}
 
 }
-
-
-/*------------------rep recruitment-----------------*/
-
 
 
 
@@ -4269,7 +4198,6 @@
 
 @media only screen and (max-width: 767px) {
 
-   /* .training_prospector_video_body2_fluidcon{padding-bottom: 48%;}*/
     .notemainemailblock .tabcontents2 table{ display: block!important; overflow-x: scroll!important;}
 
     .notemainemailblock .tabcontents2 tbody{ display: table!important;}
@@ -4558,7 +4486,6 @@
     .webinarsearcharea .add_button{ width: 70px!important;  padding: 2px!important; font-size: 14px!important;}
     .adddoctor_banner_block h2{ font-size: 24px;}
 }
-/*------------------------------*/
 
 .opensubheading{
     background-image: url(https://nexmedsolutions.net/system/themes/nexmedicalbackend/images/welcome_border2.pngactive_arrow2.png);
@@ -4568,7 +4495,6 @@
 }
 
 
-/*----------landing_page -----------------------*/
 
 
 @media(max-width:1830px) {
@@ -4596,8 +4522,6 @@
     .nmsfunneldoctor_block3 {
         margin-top: 25px;
     }
-/*    .landing_top2_div2_body{background-position: right 5% bottom 44% !important; background-size: 38% !important;}
-    .landing_top2_div5_body{ background-position: 90% top!important;}*/
 }
 
 @media(max-width:1700px){
@@ -4823,23 +4747,7 @@
 
     .nmsfunneldoctor_block3 ul {
         list-style: none;
-       /* max-height: 370px;
-        overflow-y: scroll;*/
-       /* padding: 0px 27px 0px 0px;*/
-
-        /*scrollbar-highlight-color: #04a9bc;
-        scrollbar-face-color: #023466;
-        scrollbar-arrow-color: #023466;
-        -ms-scrollbar-highlight-color: #04a9bc !important;
-        -ms-scrollbar-face-color: #023466;
-        -ms-scrollbar-arrow-color: #023466;
-        -webkit-scrollbar-highlight-color: #04a9bc !important;
-        -webkit-scrollbar-face-color: #023466;
-        -webkit-scrollbar-arrow-color: #023466;
-        -moz-scrollbar-highlight-color: #04a9bc !important;
-        -moz-scrollbar-face-color: #023466;
-        -moz-scrollbar-arrow-color: #023466;
-        border-color: #04a9bc;*/
+      
     }
 
     .nmsfunneldoctor_block3 ul::-webkit-scrollbar-track
@@ -4938,7 +4846,6 @@
         margin-top: 590px;
     }
 
-    /*   .pateintdetail_left_formnew_right .form-group2row{width: 47% !important;}*/
 
     .lan_join_ribon5 {
         position: absolute;
@@ -5018,9 +4925,6 @@
 
     .landing_top1_left_textcon_text strong{ font-size: 16px; line-height: 20px;}
 
-/*    .landing_top2_div2_body {
-        background-position: 310% bottom !important;
-    }*/
     .nmsfunneldoctor_block5_topright {
         width: 80%;
     }
@@ -5154,13 +5058,9 @@
     }
     .lan_top_arrow_div .lan_top_arrow_div_wrapper .lan_top_arrow_div_con h2 span {
         font-size: 28px;
-        line-height: 30px;/*
-        float: right;*/
+        line-height: 30px;
     }
-   /* .landing_top2_div2_body {
-        background-position: 430% bottom !important;
-    }
-*/
+
     .landing_top2_div5_body {
         background-position: 105% top !important;
     }
@@ -5178,10 +5078,7 @@
         background-position: 110% top !important;
     }
 
-/*    .landing_top2_div2_body {
-        background-position: 450% bottom !important;
 
-    }*/
 }
 
 @media (max-width: 1415px) {
@@ -5217,12 +5114,8 @@
         font-size: 31px;
         line-height: 30px;
     }
-    /*   .pateintdetail_left_formnew_right .form-group2row{width: 46.9% !important;}*/
 
-   /* .landing_top2_div2_body {
-        background-position: 660% bottom !important;
 
-    }*/
     .landing_top1_video_block {
         margin-top: 560px;
     }
@@ -5290,9 +5183,7 @@
     .lan_top_arrow_div {
         left: -690px;
     }
-    /* .lan_top_arrow_div .lan_top_arrow_div_wrapper .lan_top_arrow_div_con {
-        width: 680px;
-    } */
+    
     .lan_top_arrow_div .lan_top_arrow_div_wrapper .lan_top_arrow_div_con h2 {
         font-size: 20px;
         padding-top: 8px;
@@ -5360,17 +5251,9 @@
         line-height: 16px;
     }
     
-   /* .landing_top2_div2_body {
-        background-position:380px bottom !important;
+ 
 
-    }*/
 
-/*    .landing_video_arrow {
-        position: absolute;
-        left: -50px;
-        top: 70px;
-        width: 40px;
-    }*/
     .landing_top1_left_textcon {
         width: 91%;
     }
@@ -5457,34 +5340,13 @@
 
     .landing_top2_div2_wrapper_video_com h1{ padding-bottom: 18px;}
 
-    /*.landing_video_arrow {
-        position: absolute;
-        left: -25px;
-        top: 76px;
-        width: 23px;
-    }
-*/
-    /*.landing_top2_div2_body {
-        background-position:280px bottom !important;
-
-    }*/
+ 
+ 
 
     .landing_top2_div5_body {
         background-position: 130% top !important;
     }
 
-   /* .landing_top1_wrapper {
-        width: 1200px;
-    }
-
-    .landing_top1_left {
-        width: 678px;
-        float: left;
-    }
-
-    .landing_top1_right {
-        width: 429px;
-    }*/
 
     .landing_top1_formbod h2 {
         font-size: 32px;
@@ -5513,15 +5375,7 @@
         line-height: 32px;
     }
 
-   /* .landing_top1_left_textcon {
-        width: 660px;
-        margin-top: 500px;
-    }*/
-
-   /* .landing_top1_left_textcon_text {
-        width: 436px;
-        float: right;
-    }*/
+ 
 
     .landing_top1_left_textcon_text h3 {
         font-size: 19px;
@@ -6480,7 +6334,6 @@
     .landing_top2_div2_wrappe3_text h3 span {
         font-size: 40px;
     }
-/*    .landing_top2_div2_body { padding-bottom: 90% !important; }*/
 
 
     .landing_top1_left_textcon_text h3 {
@@ -6548,8 +6401,6 @@
         line-height: normal;
     }
 }
-
-/*----------end landing-----*/
 @media only screen and (max-width: 991px) {
 
     .rep-dashboard-wrapper1 .reptopblock1 .rtop_sublink {
@@ -6569,3 +6420,5 @@
         height: 37px!important;
         line-height: 39px!important;
     }}
+
+    */
