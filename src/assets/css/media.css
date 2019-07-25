@@ -155,6 +155,7 @@
 }
 
 @media only screen and (max-width: 1300px) {
+    .inner_banner_content {width: 54% !important;}
     .home_block3 { padding: 0 380px 0 20px!important; background-position: 188% top !important; }
     .home_block3 .mat-card-content .beto_img1 { float: left;  margin-top: -14px; }
     .home_block3 .mat-card-content .mat-card-subtitle h3 label{ display: block; border: none; padding: 0px; margin: 10px 0 0 0;}
@@ -181,6 +182,10 @@
     .topBanner .content { left: 32%; }
 }
 @media only screen and (max-width: 1199px) {
+    .inner_banner_content {
+        width: 100% !important;
+        width: 97% !important;
+    }
     .mainfooter_block1 {
         display: flex!important;
         justify-content: center;
