@@ -723,12 +723,18 @@ mat-card-content.toprightformdiv{float: none; margin: 0 auto; position: relative
         margin: 0 auto;
         display: block;
     }
+    .aspirelandingblock1 {
+        background-image: url(http://aspire.lampconsulting.com/assets/images/aspirelandingblock1bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left 8% center;
+    }
 }
 
 
 @media screen and (max-width: 1199px) {
     .toprightformdiv {
-        width: 376px !important;
+        width: 336px !important;
     }
     .mainwrappercontent1 {
         width: 91%;
@@ -835,7 +841,7 @@ mat-card-content.toprightformdiv{float: none; margin: 0 auto; position: relative
     }
 
     .toprightformdiv {
-        width:100% !important;
+        width: 90% !important;
     }
     .landingleftcontent h2 {
         font-size: 38px;

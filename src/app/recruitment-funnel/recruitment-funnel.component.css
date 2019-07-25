@@ -12,7 +12,7 @@
 
 .landing_top1_div2{ width: 100%; padding: 0 0 10px 0; margin: 0; background:  url("https://nexmedsolutions.net/system/themes/nexmedicalbackend/images/nms_landing_bg1.png") no-repeat left bottom!important;}
 
-.landing_top1_div3{ width: 100%; padding: 0; margin: 0; background: url("../../assets/images/nms_landing_img1.png") no-repeat  96px 76px!important; min-height: 870px;}
+.landing_top1_div3{ width: 100%; padding: 0; margin: 0; background: url("../../assets/images/nms_landing_img1.png") no-repeat  96px 76px!important; min-height: 1000px;}
 
 
 .landing_top1_wrapper{ width: 1700px; margin: 0 auto; padding-left: 84px; display: block;}
@@ -170,7 +170,7 @@
     top: -52px;}
 
 
-.landing_top2_div2{ width: 100%; margin: 0; padding: 0px; background: rgba(233,249,252,1);
+.landing_top2_div2{ width: 100%; margin: 0; margin-top: -4px; padding: 0px; background: rgba(233,249,252,1);
     background: -moz-linear-gradient(left, rgba(233,249,252,1) 0%, rgba(255,255,255,1) 13%, rgba(255,255,255,1) 74%, rgba(233,249,252,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(233,249,252,1)), color-stop(13%, rgba(255,255,255,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(100%, rgba(233,249,252,1)));
     background: -webkit-linear-gradient(left, rgba(233,249,252,1) 0%, rgba(255,255,255,1) 13%, rgba(255,255,255,1) 74%, rgba(233,249,252,1) 100%);
@@ -179,7 +179,7 @@
 
 .landing_top2_div2_body{width: 100%; margin: 0; padding: 0px; background: url("https://nexmedsolutions.net/system/themes/nexmedicalbackend/images/landing_block2_bg.png") no-repeat  right 5% bottom 50% !important;;}
 
-.landing_top2_div2_wrapper{ width: 1199px; margin: 0 auto; padding:20px 0 30px 0;}
+.landing_top2_div2_wrapper{ width: 1199px; margin: 0 auto; padding:60px 0 30px 0;}
 
 .landing_top2_div2_wrapper h2{     width: 755px;
     font-size: 22px;
@@ -5240,7 +5240,9 @@
 }
 
 @media (max-width: 1366px){
-
+    .landing_top1_right .form-group_wrapper label {
+        font-size: 16px;
+    }
     .nmsfunneldoctor_block1 h2 {
         font-size: 28px;
         line-height: 36px;
