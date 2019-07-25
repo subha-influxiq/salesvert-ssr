@@ -699,7 +699,7 @@ a{cursor: pointer; outline: none;}
     margin-top: -4px;}
 
 
-   .imgresponsive{width: 100%;}
+   .imgresponsive{width: 100%;display: block;}
 
 
 
