@@ -35,3 +35,5 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper{ position: relative; width: 800px; float: right;}
 
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image{ position: absolute; left: -15px; bottom: 0;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right{ }
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right{}
