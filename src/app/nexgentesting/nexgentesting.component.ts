@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 @Component({
   selector: 'app-nexgentesting',
   templateUrl: './nexgentesting.component.html',
@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NexgentestingComponent implements OnInit {
 
-  constructor() { }
+  nexgenUrl: SafeResourceUrl;
+  constructor( private sanitizer: DomSanitizer) {
+    this.nexgenUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://nexgentesting.com/funnel");
+   }
 
   ngOnInit() {
   }

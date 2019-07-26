@@ -1,3 +1,39 @@
+h1,h2,h3,h4,h5,h6,p{ margin: 0;}
+.clearfix{ clear: both; }
+.trinity_top {position: relative;}
  .trinity_top .top_bar{ background: #682b7b; height: 75px; border-bottom: 5px solid #263b96; }
 
- .main_banner{color:#fff;}
+ .trinity_top .main_banner{background: url(/assets/images/trinity_topBg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover; position: relative;
+}
+.trinity_top .main_banner .main_banner_wrapper{ margin: 0 auto; width: 1280px; position: relative;}
+/* .trinity_top .main_banner .main_banner_wrapper .logo_wrapper{ position: absolute; top: -55px; left: 39%; } */
+
+.trinity_top .logo_wrapper,
+.trinity_top .headerTag{ text-align: center;}
+.trinity_top .logo_wrapper img{ margin-top: -50px;}
+.trinity_top .headerTag .header_title{ color:#682b7b; text-transform: capitalize; font-family: 'RobotoBold'; font-size: 46px;}
+.trinity_top .headerTag .subtitle{color: #223e92; font-size: 30px; font-family: 'Arial'; text-transform: capitalize; font-weight: bold; }
+
+.trinity_top .bottomBg{ background: url(/assets/images/trinity_bottomBg.png) no-repeat;  min-height: 234px; padding-bottom: 234px; background-position: center bottom;}
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper{ width:520px; float: left; position: relative;}
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper_badge {background: url("/assets/images/leftTopBadge.png") no-repeat center center; background-size: cover;
+  padding: 22px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;}
+  .trinity_top .main_banner .main_banner_wrapper .left_wrapper .input_wrapper{ padding: 25px; text-align: center; }
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper>* .form-control{ width: 100%; padding: 5px 15px; display: block; margin: 18px 0; height: 45px; border-radius: 5px;
+  border: 1px solid #888888; box-sizing: border-box;  }
+
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper{ border-radius: 5px;  border: 1px solid #fff;width: auto; margin: 0px 55px; margin-top:35px; background: #fff; box-shadow: inset 0px 0px 20px 16px #d4d1d1;  }
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper textarea{ resize: none; height: 175px!important; }
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper .Submit_button{ background-image: linear-gradient(to bottom, #cb2f27, #ca2e26, #ca2d25, #c92c24, #c82b23); color: #fff;width: 200px; padding: 10px; font-size: 26px; text-transform: uppercase; margin: 0 auto; border: 1px solid #7d0000; border-radius: 4px; font-family: "Calibri"; font-weight: bold; margin-top: 10px; }
+
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper{ position: relative; width: 800px; float: right;}
+
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image{ position: absolute; left: -15px; bottom: 0;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right{ }
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right{}
