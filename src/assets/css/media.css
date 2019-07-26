@@ -162,6 +162,7 @@
 }
 
 @media only screen and (max-width: 1280px) {
+    .topBanner {background-position: 51% center!important;}
     .home_block4 .mat-card-content ul li strong {font-size: 18px;}
     .home_block4 .mat-card-content ul li {width: 28%;padding: 1.5%;}
     .home_block5 .mat-card-content h2 { font-size: 23px; }
