@@ -317,7 +317,7 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
     url('../fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold') format('svg');
     font-weight: 800;
     font-style: normal;
-} 
+}
 
 @font-face {font-family: 'RobotoCondensedBold';src: url('../fonts/RobotoCondensed-Bold.eot');src: url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),url('../fonts/RobotoCondensed-Bold.woff') format('woff'),url('../fonts/RobotoCondensed-Bold.ttf') format('truetype'),url('../fonts/RobotoCondensed-Bold.svg#RobotoCondensed-Bold') format('svg');font-weight: bold;font-style: normal;}
 @font-face {font-family: 'OpenSansSemibold';src: url('../fonts/OpenSans-Semibold.eot');src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Semibold.woff2') format('woff2'),url('../fonts/OpenSans-Semibold.woff') format('woff'),url('../fonts/OpenSans-Semibold.ttf') format('truetype'),url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');font-weight: 600;font-style: normal;}
@@ -348,7 +348,7 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 @font-face {font-family: 'HelveticaNeueMedium';src: url('../fonts/HelveticaNeueMedium.eot');src: url('../fonts/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'),url('../fonts/HelveticaNeueMedium.woff2') format('woff2'),url('../fonts/HelveticaNeueMedium.woff') format('woff'),url('../fonts/HelveticaNeueMedium.ttf') format('truetype'),url('../fonts/HelveticaNeueMedium.svg#HelveticaNeueMedium') format('svg');font-weight: 500;font-style: normal;}
 @font-face {font-family: 'CarmeRegular';src: url('../fonts/Carme.eot');src: url('../fonts/Carme.eot?#iefix') format('embedded-opentype'),url('../fonts/Carme.woff2') format('woff2'),url('../fonts/Carme.woff') format('woff'),url('../fonts/Carme.ttf') format('truetype'),url('../fonts/Carme.svg#Carme') format('svg');font-weight: normal;font-style: normal;}
 
- 
+
 
 @font-face {
     font-family: 'Montserrat_light';
@@ -545,6 +545,13 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
     font-style: normal;
 
 }
+@font-face {
+  font-family: 'AmaliamutiaRegular';
+  src: url('../fonts/amaliamutia.woff2') format('woff2'),
+      url('../fonts/amaliamutia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /*@font-face {
@@ -561,7 +568,7 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 }*/
 
 
- 
+
 @font-face {
     font-family: 'proxima_nova_rgregular';
     src: url('../fonts/proxima-nova-58819d70abdee-webfont.woff2') format('woff2'),
@@ -639,7 +646,7 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
     font-style: normal;
 }
 
- 
+
 
 @font-face {
     font-family: 'Roboto';
@@ -736,6 +743,13 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
     url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
     font-weight: 800;
     font-style: normal;
+}
+@font-face {
+  font-family: 'BebasRegular';
+  src: url('../fonts/Bebas-Regular.woff2') format('woff2'),
+      url('../fonts/Bebas-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -1284,9 +1298,9 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     background-image: linear-gradient(to left top, #f8d9bc, #f8d7b9, #f8d6b6, #f7d4b3, #f7d2b0, #f7d3b2, #f6d4b4, #f6d5b6, #f6d9bd, #f6ddc5, #f6e1cc, #f6e5d4)!important; padding-bottom: 50px!important;
 }
 
-.ourTeamblok .header{ 
-    text-align: center; 
-    background-image: url(../images/platformfeatures_block3_rightbg.png), url(../images/platformfeatures_block3_leftbg.png)!important;  
+.ourTeamblok .header{
+    text-align: center;
+    background-image: url(../images/platformfeatures_block3_rightbg.png), url(../images/platformfeatures_block3_leftbg.png)!important;
     background-repeat: no-repeat, no-repeat!important; background-position: -8% center, right center!important; background-color: #f2bd89!important;
     background-size: contain, contain!important; font-family: 'MontserratBold'; font-size: 30px; text-transform: uppercase; margin-bottom: 0!important; padding: 30px; color: #0c1f27;  }
 
@@ -1342,8 +1356,8 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     .contact_wrapper  .mat-input-element {caret-color: #000; height: 40px; font-family: 'MontserratRegular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
     .contact_wrapper  .mat-form-field-infix{ height: 48px; padding: 5px 10px; border-top: 0px!important; border: solid 1px #cfd1d3!important; background: #fff;}
     .contact_wrapper .mat-form-field-appearance-legacy .mat-form-field-label {top: 28px;padding: 0 10px;  font-size: 16px; color: #000000;text-transform: initial;}
-     
-    .mat-error {color: #f44336;font-size: 12px;}    
+
+    .mat-error {color: #f44336;font-size: 12px;}
     .commentsubtitle .mat-form-field-appearance-legacy .mat-form-field-infix{ height: 160px!important;}
     .contact_wrapper .area .mat-form-field-infix { height: 160px!important;}
     .contact_wrapper .mat-form-field input::placeholder,
@@ -1374,4 +1388,3 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 
     /* end blok */
 /*Subrata END css*/
- 
