@@ -32,8 +32,78 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
 .trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper textarea{ resize: none; height: 175px!important; }
 .trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper .Submit_button{ background-image: linear-gradient(to bottom, #cb2f27, #ca2e26, #ca2d25, #c92c24, #c82b23); color: #fff;width: 200px; padding: 10px; font-size: 26px; text-transform: uppercase; margin: 0 auto; border: 1px solid #7d0000; border-radius: 4px; font-family: "Calibri"; font-weight: bold; margin-top: 10px; }
 
-.trinity_top .main_banner .main_banner_wrapper .right_wrapper{ position: relative; width: 800px; float: right;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper{ position: relative; width: 760px; float: right;}
 
-.trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image{ position: absolute; left: -15px; bottom: 0;}
-.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right{ background: url(/assets/images/trinitytopBlokimage1.png) no-repeat; background-position: center center; background-size: cover;}
-.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right{color:#000;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image{  width: 375px;
+  float: left;
+}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image img{ margin-left: -55px; }
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right{
+   background: url(/assets/images/trinitytopBlokimage1.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 24px;
+  padding: 25px;
+  width: 320px;
+}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right .row,
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right .row{ display: flex; align-items: flex-start; width: 80%; margin: 0 auto;
+  justify-content: center;  padding: 40px;
+  padding-left: 30px;
+  padding-top: 25px;
+  min-height: 155px;
+}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right .row .left_item,
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right .row .left_item { font-family: 'AmaliamutiaRegular'; font-size: 107px; color: #fff;}
+
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right .row .right_item h3,
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right .row .right_item h3{ font-family: 'BebasRegular'; color:#fff; font-size: 27px;}
+
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right .row .right_item h5 span,
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right .row .right_item h5 span{ font-family: 'Times New Roman';
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: -16px;
+  display: block;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right .row .right_item h5,
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right .row .right_item h5{ font-family: "Arial"; font-style: normal; color: #fff; line-height: 22px;
+  margin-top: 10px;
+}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right{
+  background: url(/assets/images/trinitytopBlokimage2.png) no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 25px;
+  width: 320px;
+}
+
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper{ background: url(/assets/images/bottom_image.png) no-repeat;
+  position: absolute;
+  width: auto;
+  background-size: cover;
+  bottom: -99px;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row1{
+  font-family: 'AmaliamutiaRegular'; font-size: 107px; color: #fff;
+}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row2 h4{font-family: 'BebasRegular'; color:#fff; font-size: 27px;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row2 h5{font-family: 'Times New Roman';
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: -16px;
+  display: block;}
+.trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row2 p{font-family: "Arial"; font-style: normal; color: #fff; line-height: 22px; margin-top: 10px;}
+
