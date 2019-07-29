@@ -8,16 +8,15 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
     background-size: cover; position: relative;
 }
 .trinity_top .main_banner .main_banner_wrapper{ margin: 0 auto; width: 1280px; position: relative;}
-/* .trinity_top .main_banner .main_banner_wrapper .logo_wrapper{ position: absolute; top: -55px; left: 39%; } */
 
 .trinity_top .logo_wrapper,
 .trinity_top .headerTag{ text-align: center;}
 .trinity_top .logo_wrapper img{ margin-top: -50px;}
 .trinity_top .headerTag .header_title{ color:#682b7b; text-transform: capitalize; font-family: 'RobotoBold'; font-size: 46px;}
-.trinity_top .headerTag .subtitle{color: #223e92; font-size: 30px; font-family: 'Arial'; text-transform: capitalize; font-weight: bold; }
+.trinity_top .headerTag .subtitle{color: #223e92; font-size: 30px; font-family: 'Arial'; text-transform: capitalize; font-weight: bold; margin-bottom: 30px; }
 
-.trinity_top .bottomBg{ background: url(/assets/images/trinity_bottomBg.png) no-repeat;  min-height: 234px; padding-bottom: 234px; background-position: center bottom;}
-.trinity_top .main_banner .main_banner_wrapper .left_wrapper{ width:520px; float: left; position: relative;}
+.trinity_top .bottomBg{ background: url(/assets/images/trinity_bottomBg.png) no-repeat;  min-height: 234px; background-position: center bottom;}
+.trinity_top .main_banner .main_banner_wrapper .left_wrapper{ width:520px; float: left; position: relative; margin-bottom: -90px;}
 .trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper_badge {background: url("/assets/images/leftTopBadge.png") no-repeat center center; background-size: cover;
   padding: 22px;
   text-align: center;
@@ -35,8 +34,7 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper{ position: relative; width: 760px; float: right;}
 
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image{  width: 375px;
-  float: left;
-}
+  float: left;}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image img{ margin-left: -55px; }
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right{
    background: url(/assets/images/trinitytopBlokimage1.png) no-repeat;
@@ -44,8 +42,8 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
   background-size: cover;
   height: auto;
   position: absolute;
-  right: 0;
-  top: 24px;
+  right: 95px;
+  top: -28px;
   padding: 25px;
   width: 320px;
 }
@@ -88,15 +86,17 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper{ background: url(/assets/images/bottom_image.png) no-repeat;
   position: absolute;
   width: auto;
-  background-size: cover;
-  bottom: -99px;
+  background-size: contain;
+  bottom: -160px;
   padding: 30px 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  left: -25px;
+  min-height: 124px;
 }
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row1{
-  font-family: 'AmaliamutiaRegular'; font-size: 107px; color: #fff;
+  font-family: 'AmaliamutiaRegular'; font-size: 107px; color: #fff;    margin-right: 15px;
 }
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row2 h4{font-family: 'BebasRegular'; color:#fff; font-size: 27px;}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row2 h5{font-family: 'Times New Roman';
@@ -104,6 +104,190 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0;}
   color: #fff;
   font-weight: bold;
   margin-bottom: -16px;
-  display: block;}
+  display: block;
+  margin: 10px 0;
+}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_wrapper .row2 p{font-family: "Arial"; font-style: normal; color: #fff; line-height: 22px; margin-top: 10px;}
 
+.container{ width: 1000px; margin: 0 auto;}
+.bottom_quote{
+  position: absolute;
+  bottom: -28%;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 30px;
+}
+.bottom_quote span{ color: #ffcc00;}
+
+.bllok2{
+  background-image: linear-gradient(to top, #cfcfcf, #dbdbdb, #e7e7e7, #f3f3f3, #ffffff);
+  padding:10px; position: relative;
+}
+
+.bllok2 .container h3{ text-align: center; font-family: "Times New Roman"; font-size: 34px; font-weight: bold; color: #17181c;  padding-top: 15px; }
+
+.bllok2 .container .row{ display: flex; margin-top: 30px;}
+.bllok2 .container .row .img_wrapper{ margin-right: 40px;}
+.bllok2 .container .content_wrapper .content{font-weight: normal; font-family: 'Arial'; font-size: 18px; color: #17181c;     line-height: 34px; }
+.bllok2 .container .content_wrapper .row2{
+display: flex;
+justify-content: space-between;
+}
+.bllok2 .rightside_icon{ position: absolute; right: 0;}
+.blk3_wrapper{ background: url(/assets/images/blk4Bg.jpg) no-repeat center center; padding: 26px 0; background-size: cover;}
+.blk3_wrapper .left_bg{ background: url(/assets/images/blk3MoneyBG.png) no-repeat left center; }
+.blk3_wrapper .left_bg .bl3_content{ background: url(/assets/images/bl3_content_BG.jpg) no-repeat center center;
+  background-size: 100%;
+  width: 410px;
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative;
+ }
+ .blk3_wrapper .left_bg .bl3_content::before{
+  content: "";
+  float: left;
+  width: 23px;
+  height: 65px;
+  background: url(/assets/images/trinityclipIcon.png) no-repeat center;
+  position: absolute;
+  top: -26px;
+  left: 50px;
+ }
+ .blk3_wrapper .left_bg .bl3_content::after{
+  content: "";
+  float: left;
+  width: 23px;
+  height: 65px;
+  background: url(/assets/images/trinityclipIcon.png) no-repeat center;
+  position: absolute;
+  top: -26px;
+  right: 50px;
+      line-height: 32px;
+ }
+  .blk3_wrapper .left_bg .bl3_content ul{ padding: 40px; }
+  .blk3_wrapper .left_bg .bl3_content ul li{
+    list-style: none;
+    background: url(/assets/images/trinity_listicon.png) no-repeat left center;
+    font-size: 24px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+    color: #17181c;
+    padding: 10px 0;
+    padding-left: 45px;
+    line-height: 32px;
+  }
+
+.tri_com_mainbg{  background: url(/assets/images/communicationBg.jpg) no-repeat center center; background-size: cover; padding: 20px; }
+.tri_com_mainbg .tri_com_wrapper{ width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; }
+.tri_com_mainbg .tri_com_wrapper .tri_com_item{ width:33%;}
+.tri_com_mainbg .tri_com_wrapper .tri_com_item .items{ position: relative; background:#fff; padding: 10px; display: flex; justify-content: space-between; margin: 15px;  border-radius: 10px;  }
+.tri_com_mainbg .tri_com_wrapper .tri_com_item .items .img_box{ width: 36%; }
+.tri_com_mainbg .tri_com_wrapper .tri_com_item .items .img_box img{ border: 1px solid #564d4d; max-width: 100%; min-height: 100%; object-fit: cover; object-position: center center;}
+.tri_com_mainbg .tri_com_wrapper .tri_com_item .items .content_box{ width: 62%;}
+.tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap h3{ color: #fff; font-size: 24px; text-transform: uppercase; font-family: "BebasRegular"; font-weight: normal;
+  text-align: center;}
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .items .content_box h2{ font-size: 22px; font-family: "Times new roman regular"; color:#223e92; }
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .items .content_box p{ font-size: 20px; font-family: "Times new roman regular"; color: #000; margin-top: 10px;}
+  .tri_com_mainbg .tri_com_wrapper .tri_consection3{ display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: -60px;}
+  .tri_com_mainbg .tri_com_wrapper .tri_consection3 .round-circle{ margin-top: 20px;}
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .one,
+   .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .two,
+   .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .three,
+   .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .four{ position: relative;}
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .one::after{
+
+    content: '';
+    border-top: 25px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 60px solid white;
+    position: absolute;
+    right: -50px;
+    bottom: 18px;
+    transform: rotate(24deg);
+  }
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .two::after{
+    content: '';
+    border-top: 25px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 63px solid white;
+    position: absolute;
+    right: -35px;
+    bottom: auto;
+    transform: rotate(12deg);
+    top: 15px;
+  }
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .three::after{
+    content: '';
+    border-top: 0px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 53px solid white;
+    position: absolute;
+    left: -46px;
+    bottom: 18px;
+    transform: rotate(156deg);
+  }
+  .tri_com_mainbg .tri_com_wrapper .tri_com_item .total_items_wrap .four::after{
+    content: '';
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    left: -25px;
+    top: 38px;
+    transform: rotate(156deg);
+  }
+.tri_com_mainbg .header_portion{ margin: 0 auto; width: 100%; text-align: center;}
+.tri_com_mainbg .header_portion h2{ color: #fff; font-family: "Times New Roman"; font-size: 34px; padding: 25px; }
+.bottom_content_wrapper{ margin: 0 auto; width: 1200px; margin-top: -25px;}
+.bottom_content_wrapper .bottom_content{ position: relative; background:#fff; padding: 10px; display: flex; justify-content: space-between; margin: 15px;  border-radius: 10px;  }
+
+.bottom_content_wrapper .main_content{ width: 410px; margin: 0 auto;}
+.bottom_content_wrapper .main_content .content{ background: #fff;  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 10px; padding-bottom: 6px;}
+  .bottom_content_wrapper .main_content .content .image_wrapper{ width: 36%; }
+  .bottom_content_wrapper .main_content .content .image_wrapper  img{ border: 1px solid #564d4d; max-width: 100%; min-height: 100%; object-fit: cover; object-position: center center;}
+  .bottom_content_wrapper .main_content .content .content_section{ width: 62%; }
+  .bottom_content_wrapper .main_content .content .content_section h2{ font-size: 22px; font-family: "Times new roman regular"; color: #223e92;}
+  .bottom_content_wrapper .main_content .content .content_section p{ font-size: 20px; font-family: "Times new roman regular"; color: #000; margin-top: 10px;}
+  .bottom_content_wrapper .main_content h3{ color: #fff; font-size: 24px; text-transform: uppercase; font-family: "BebasRegular"; font-weight: normal; text-align: center; margin-top: 15px; }
+
+
+  .digitalEdge_bg{
+    /* background-image: linear-gradient(to top, #cfcfcf, #dbdbdb, #e7e7e7, #f3f3f3, #ffffff); */
+    padding: 10px;
+    background: #fff;
+    position: relative;
+  }
+.digitalEdge_bg .digitalEdge_content_wrapper{ width: 1280px; margin: 0 auto;}
+.digitalEdge_bg .digitalEdge_content_wrapper .header_blok { text-align: center;}
+.digitalEdge_bg .digitalEdge_content_wrapper .header_blok h2{ color: #223e92; font-family: 'Times New Roaman'; font-weight: bold; font-size: 34px; }
+.digitalEdge_bg .digitalEdge_content_wrapper .header_blok p{ color: #8b8b8b; font-family: 'Arial';  font-size: 24px; font-style: italic; }
+
+.digitalEdge_bg .digitalEdge_content_wrapper .d_e_partners_wrapper{ display: flex; justify-content: space-around; padding: 15px 130px; align-items: center;}
+.digitalEdge_bg .digitalEdge_content_wrapper .service_content .left_wrapper1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+.digitalEdge_bg .digitalEdge_content_wrapper .service_content .left_wrapper1 ul li{
+  background: url(/assets/images/starBg.png) no-repeat left top; background-size: contain;
+  padding-left: 45px;
+  list-style: none;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: italic;
+  color: #393838;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 15px 0;
+}
+
+  .digitalEdge_bg .digitalEdge_content_wrapper .service_content {  display: flex; justify-content: space-between;  margin-top: 40px;}
