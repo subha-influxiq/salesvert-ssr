@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 
+.platformfeatures_block4_bottom.mat-card-content .mat-list-base .mat-list-item .mat-list-item-content{text-align:left;}
 
 .mat-card-header-text {
     margin: 0 !important;
