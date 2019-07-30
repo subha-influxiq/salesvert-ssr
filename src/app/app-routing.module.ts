@@ -51,7 +51,7 @@ const appRoutes: Routes = [
     { path: 'triniti-landing', component:TrinitiLandingComponent},
     { path: 'vivacity-recover-landing', component:VivacityRecoverLandingComponent},
     { path: 'vivacity-balance-landing', component:VivacityBalanceLandingComponent},    
-    { path: 'cobrazol-landing', component:VivacityBalanceLandingComponent},
+    { path: 'cobrazol-landing', component:CobrazolLandingComponent},
 ];
 
 @NgModule({
