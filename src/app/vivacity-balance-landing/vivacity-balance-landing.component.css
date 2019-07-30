@@ -313,8 +313,8 @@
   .col-xs-offset-0 {
     margin-left: 0%;
   }
-/* 
-  
+/*
+
 .col-sm-1 {
     width: 100%;
 }
@@ -367,9 +367,9 @@
     .container {
         width: 970px;
     }
-    
+
     }
-    
+
     @media (min-width: 768px){
     .container {
         width: 750px;
@@ -998,7 +998,7 @@
     position: absolute;
     top: -45px;
     width: 459px;
-    z-index: 9;   
+    z-index: 9;
 }
 
 
@@ -1206,7 +1206,7 @@
     background: linear-gradient(to bottom, rgba(254,166,24,1) 0%, rgba(255,83,3,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fea618', endColorstr='#ff5303', GradientType=0 );
 
-    display: block; width: 600px; border-radius: 60px; border: solid 4px #fff; box-shadow: 0 0 8px #111;  font-size: 30px;
+    display: block; width: 460px; border-radius: 60px; border: solid 4px #fff; box-shadow: 0 0 8px #111;  font-size: 22px;
     color: #fff!important;  text-transform: uppercase; text-decoration: none!important; line-height: 36px;  font-family: 'robotoblack'; text-shadow: 0 2px 4px #333; text-align: center; padding: 8px 0; position: absolute; right: 65px; top: 450px;
 }
 
@@ -1870,7 +1870,7 @@
     padding-left: 274px;
     min-height: 440px;
     overflow-y: hidden;
-    width: 755px;
+    width: 500px;
     float: left;
 }
 
@@ -3562,22 +3562,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .vcproduct_wraperouterdiv {
     background-size: 100%;
     background-color: #fe7204;
@@ -4676,6 +4660,20 @@ font-family: 'RalewayRegular';
         position: absolute;
         top: 80px;
     }
+    /* .topgirlimg {
+      left: -120px;
+      position: absolute;
+      top: -17px;
+      z-index: 9;
+      width: 420px;
+  } */
+  .topgirlimg {
+    left: -120px;
+    position: absolute;
+    top: -110px;
+    width: 490px;
+    z-index: 9;
+}
     .topleftbg2 .affiliate_top_img1 {
         top: -4px;
     }
@@ -4803,13 +4801,7 @@ font-family: 'RalewayRegular';
     }*/
 
 
-    .topgirlimg {
-        left: -120px;
-        position: absolute;
-        top: -110px;
-        /*width: 490px;*/
-        z-index: 9;
-    }
+
     .topimg1 {
         left: -300px;
         top: 280px;
@@ -6763,7 +6755,7 @@ width: 320px;  }
         text-align: center;
     }
 
-    
+
     .r1b6img3 {
         width: auto;
         max-width: 100%;
@@ -7921,3 +7913,6 @@ width: 320px;  }
     }
 
 }
+
+.viva-balanceblock{ display: block;}
+.viva-balanceblock img{ display: block; max-width: 100%; height: auto;}

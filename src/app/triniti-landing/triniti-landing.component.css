@@ -376,6 +376,7 @@ background-size: 100%; min-height: 250px;}
   width: auto;
   padding: 20px 50px;
   margin: 20px 0;
+  margin-top: -5px;
 }
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right {
 
@@ -485,7 +486,8 @@ background-size: 100%; min-height: 250px;}
   .trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper_badge { background: #4aabe3; }
   .trinity_top .main_banner .main_banner_wrapper .left_wrapper .form_wrapper { margin: 0px 5px; }
   .trinity_top .main_banner .main_banner_wrapper .right_wrapper .item_image img{ max-width: 100%;}
-  .trinity_top .main_banner .main_banner_wrapper .left_wrapper { width: 98%; }
+  .trinity_top .main_banner .main_banner_wrapper .left_wrapper { width: 100%; }
+  .trinity_top .main_banner .main_banner_wrapper .left_wrapper .input_wrapper { margin-top: 60px; }
 }
 @media screen and (max-width: 480px){
 .trinity_top .logo_wrapper img {
