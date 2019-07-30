@@ -330,6 +330,9 @@ background-size: 100%; min-height: 250px;}
 .trinity_testimonial .header_part p{ color: #b9b9b9; text-align: center; font-family: "Arial"; font-size: 28px; font-weight: bold; margin: 10px ;}
 .img_responsive{ max-width: 100%; height: auto; }
 
+.trinityBlock2{ display: block;}
+.trinityBlock2 img{ display: block; max-width: 100%;
+  height: auto;}
 
 @media screen and (max-width: 1340px){
   .trinity_top .main_banner .main_banner_wrapper { width: 96%; position: relative; }
@@ -340,6 +343,12 @@ background-size: 100%; min-height: 250px;}
   .trinity_top .main_banner .main_banner_wrapper .right_wrapper .top_right { right: 50px; }
 }
 @media screen and (max-width: 1199px){
+  .trinity_top .bottomBg {
+    background: none;
+    min-height: inherit;
+    background-position: center bottom;
+
+}
 .trinity_top .main_banner .main_banner_wrapper .responsive_wrapper{
   display: flex;
   flex-direction: column-reverse;
@@ -452,7 +461,23 @@ background-size: 100%; min-height: 250px;}
 .trinity_top .main_banner .main_banner_wrapper .right_wrapper .bottom_right .row .right_item h5 {
   font-size: 18px;
 }
+.bottom_quote {
+  position: inherit;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 30px;
+  background: #223e92;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
+}
+
 @media screen and (max-width: 991px){
 .trinity_top .main_banner .main_banner_wrapper .left_wrapper { width: 90%; }
 }
@@ -467,4 +492,5 @@ background-size: 100%; min-height: 250px;}
   margin-top: -50px;
   max-width: 100%;
 }
+.trinity_top .headerTag .header_title { line-height: 46px;  margin-bottom: 20px; }
 }
