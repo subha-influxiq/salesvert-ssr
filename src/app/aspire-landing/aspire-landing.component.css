@@ -1,6 +1,6 @@
 
 
-html, body {height: 100%}
+/*html, body {height: 100%}
 
 h1, h2, h3, h4, h5, h6{
     padding: 0;
@@ -46,7 +46,7 @@ a:visited {
     text-decoration: none;
     outline: none;
 }
-/* CSS Document */
+
 
 
 
@@ -122,9 +122,7 @@ a{cursor: pointer; outline: none;}
     max-width: 41.666667%;
 }
 
-/*
-.col-md-12{ margin-left:0!important;  margin-right:0!important; padding-left:0!important; padding-right:0!important;}
-*/
+
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
     position: relative;
@@ -142,7 +140,7 @@ a{cursor: pointer; outline: none;}
 
 
 .generalcls p{font-family: 'OpenSansRegular'; font-size: 18px; color:#1e1e1e; margin: 0px; padding: 0; line-height: 30px; font-weight: normal;}
-/*.generalcls p span, .generalcls xp span{display: block; margin-top: 20px;}*/
+
 .generalcls{padding: 77px 0px; border-top: 2px solid #fff;}
 .generalcls .is-table-row{direction: rtl;}
 .generalcls .is-table-row p{direction: rtl; direction: initial;}
@@ -157,7 +155,7 @@ a{cursor: pointer; outline: none;}
 
 .gcls-video-container {
     position: relative;
-    padding-bottom: 56.25%; /*16:9*/
+    padding-bottom: 56.25%; 
     padding-top: 0px;
     height: 0;
     overflow: hidden;
@@ -238,13 +236,13 @@ a{cursor: pointer; outline: none;}
 
 .btnformgray{
     display: inline-block;
-    background: -moz-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(195,198,205,1)), color-stop(100%, rgba(106,114,134,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); /* ie10+ */
-    background: linear-gradient(180deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c6cd', endColorstr='#6a7286',GradientType=0 ); /* ie6-9 */
+    background: -moz-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(195,198,205,1)), color-stop(100%, rgba(106,114,134,1)));
+    background: -webkit-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); 
+    background: -o-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); 
+    background: -ms-linear-gradient(270deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); 
+    background: linear-gradient(180deg, rgba(195,198,205,1) 0%, rgba(106,114,134,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c6cd', endColorstr='#6a7286',GradientType=0 ); 
     font-size:24px;
     color: #222222!important;
     text-transform: capitalize;
@@ -260,29 +258,12 @@ a{cursor: pointer; outline: none;}
 
 .socialmediaicons .fa {color:#f9fafb; opacity:0.8;}
 .socialmediaicons2{margin-top: 15px;}
-/*.socialmediaicons .fa {padding: 20px;font-size: 30px; width: 36px; text-align: center; text-decoration: none; margin: 5px 2px;background: #708694;}*/
 .socialmediaicons2 .fa {padding: 10px; font-size: 15px; width: 36px;  border-radius: 50%; text-decoration: none; margin: 5px 7px; height: 36px;background: #708694;}
 .socialmediaicons .fa-facebook:hover {background: #3B5998; color:#f9fafb;}
 .socialmediaicons .fa-twitter:hover {background: #55ACEE; color:#f9fafb;}
 .socialmediaicons .fa-google-plus:hover { background: #dd4b39; color:#f9fafb;}
 .socialmediaicons .fa-pinterest:hover { background: #cb2027; color:#f9fafb;}
-/*.socialmediaicons .fa-linkedin:hover {background: #007bb5; color:#f9fafb;}*/
-/*.socialmediaicons .fa-youtube:hover {background: #bb0000; color: white;}
-.socialmediaicons .fa-instagram:hover { background: #125688; color: white;}
-.socialmediaicons .fa-snapchat-ghost:hover {background: #fffc00; color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
-.socialmediaicons .fa-skype:hover {background: #00aff0; color: white;}
-.socialmediaicons .fa-android:hover {background: #a4c639; color: white;}
-.socialmediaicons .fa-dribbble:hover {background: #ea4c89; color: white;}
-.socialmediaicons .fa-vimeo:hover {background: #45bbff; color: white;}
-.socialmediaicons .fa-tumblr:hover {background: #2c4762; color: white;}
-.socialmediaicons .fa-vine:hover {background: #00b489; color: white;}
-.socialmediaicons .fa-foursquare:hover {background: #45bbff; color: white;}
-.socialmediaicons .fa-stumbleupon:hover {background: #eb4924; color: white;}
-.socialmediaicons .fa-flickr:hover {background: #f40083; color: white;}
-.socialmediaicons .fa-yahoo:hover {background: #430297; color: white;}
-.socialmediaicons .fa-soundcloud:hover { background: #ff5500; color: white;}
-.socialmediaicons .fa-reddit:hover {background: #ff5700; color: white;}
-.socialmediaicons .fa-rss:hover {background: #ff6600; color: white;}*/
+
 
 
 
@@ -477,19 +458,18 @@ a{cursor: pointer; outline: none;}
     box-shadow: 0px !important;
 }
 
-.formclsnew input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.formclsnew input::-webkit-input-placeholder { 
     color: #343434;
     text-transform: capitalize;
 }
-.formclsnew input::-moz-placeholder { /* Firefox 19+ */
+.formclsnew input::-moz-placeholder { 
     color: #343434;
     text-transform: capitalize;
 }
-.formclsnew input:-ms-input-placeholder { /* IE 10+ */
-    color: #343434;
+.formclsnew input:-ms-input-placeholder { 
     text-transform: capitalize;
 }
-.formclsnew input:-moz-placeholder { /* Firefox 18- */
+.formclsnew input:-moz-placeholder { 
     color: #343434;
     text-transform: capitalize;
 }
@@ -556,7 +536,7 @@ a{cursor: pointer; outline: none;}
 .errorclsnew{color:#ff2222; font-size: 14px; text-align: left; float: left; margin-top: 8px;}
 
 
-/*-------------- start avijit css -------------*/
+
 
 mat-card.asaspirelandingblock1{display: inline-block; width: 100%; background: inherit; box-shadow: none !important; height: 100vh;}
 .aspirelandingblock1 {background-image: url(http://aspire.lampconsulting.com/assets/images/aspirelandingblock1bg.jpg) !important;}
@@ -637,7 +617,8 @@ mat-card-content.toprightformdiv{float: none; margin: 0 auto; position: relative
     z-index: 99999;
 }
 
-.imgresponsive{width: 100%;}
+.imgresponsive{width: 100%;display: block;}
+
 .text-center {
     text-align: center!important;
 }
@@ -722,12 +703,18 @@ mat-card-content.toprightformdiv{float: none; margin: 0 auto; position: relative
         margin: 0 auto;
         display: block;
     }
+    .aspirelandingblock1 {
+        background-image: url(http://aspire.lampconsulting.com/assets/images/aspirelandingblock1bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left 8% center;
+    }
 }
 
 
 @media screen and (max-width: 1199px) {
     .toprightformdiv {
-        width: 376px !important;
+        width: 336px !important;
     }
     .mainwrappercontent1 {
         width: 91%;
@@ -834,7 +821,7 @@ mat-card-content.toprightformdiv{float: none; margin: 0 auto; position: relative
     }
 
     .toprightformdiv {
-        width:100% !important;
+        width: 90% !important;
     }
     .landingleftcontent h2 {
         font-size: 38px;
@@ -892,3 +879,4 @@ mat-card-content.toprightformdiv{float: none; margin: 0 auto; position: relative
         line-height: 26px !important;
     }
 }
+*/

@@ -1,0 +1,258 @@
+/*  
+.nmsfunneldoctor_block1 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: -moz-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(4,169,188,1)), color-stop(100%, rgba(2,52,102,1)));
+    background: -webkit-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -o-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -ms-linear-gradient(339deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: linear-gradient(111deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04a9bc', endColorstr='#023466',GradientType=1 );
+    padding-top: 26px;
+    padding-bottom: 23px;
+}
+.container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    float: none!important;
+}
+.nmsfunneldoctor_block_wrapper {
+    width: 1651px;
+    margin: 0 auto;
+    display: block;
+}
+.nmsfunneldoctor_block1 h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'RalewayBold';
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.nmsfunneldoctor_block2_left_top {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.nmsfunneldoctor_block2 {
+    background-color: #fff;
+    padding-top: 27px;
+    padding-bottom: 0px;
+}
+.nmsfunneldoctor_block2_left_top_content h2 {
+    padding: 0;
+    margin: 0;
+    color: #0295d3;
+    text-transform: uppercase;
+    font-family: 'RalewayExtraBold';
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+    max-width: 100%;
+    line-height: 40px;
+}
+.nmsfunneldoctor_block2_left {
+    width: 72% !important;
+    margin: 0;
+    display: block;
+    padding: 0;
+    background: url(/assets/images/nmsfunneldoctor_block2_left_bottom_bg.png) no-repeat left -23% bottom -52%;
+    position: relative !important;
+    min-height: 670px !important;
+}
+.nmsfunneldoctor_block2_left h3 {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    color: #51506f;
+    text-transform: inherit;
+    font-family: 'proximanovabold';
+    font-size: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-left: -27px;
+}
+.spnabigtxt {
+    font-size: 40px !important;
+    line-height: 40px!important;
+    padding: 0;
+    margin: 0;
+    color: #ff4700;
+    text-transform: uppercase;
+    font-family: 'RalewayExtraBold';
+}
+.nmsfunneldoctor_block2_left h4 span {
+    padding: 0;
+    margin: 0;
+    color: #ff4700;
+    text-transform: uppercase;
+    font-family: 'RalewayExtraBold';
+    font-size: 25px;
+    line-height: 28px !important;
+    text-align: right;
+    text-transform: uppercase;
+    width: 100%;
+    float: right;
+}
+.nmsfunneldoctor_block2_left_content2 {
+    max-width: 515px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 33%;
+}
+.landingleftimg1man {
+    position: absolute;
+    bottom: -68px;
+    left: -81px;
+    z-index: 999;
+}
+.landingleftimg2computer {
+    position: absolute;
+    bottom: 58px;
+    left: 115px;
+    z-index: 99;
+}
+.btnleftinfo {
+    position: absolute;
+    top: 84%;
+    right: 0px;
+    margin: 0;
+    display: block;
+    padding: 0;
+    background: url(/assets/images/btnleftinfobg.png) no-repeat;
+    height: 205px;
+    background-size: 100%;
+    z-index: 9;
+    width: 100%;
+}
+.btnleftinfo h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'RalewaySemiBold';
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 62%;
+    position: absolute;
+    top: 48%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px rgba(96, 95, 95, 1);
+}
+.btnleftinfo h2 span {
+    color: #000000;
+}
+.nmsfunneldoctor_block2_left_content2 h2 {
+    padding: 0;
+    margin: 0;
+    color: #1570b7;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 29px;
+    text-align: left;
+    line-height: 38px;
+}
+.nmsfunneldoctor_block2_left_content2 h2 span {
+    color: #fd5e08;
+}
+.nmsfunneldoctor_block2_right {
+    width: 27.9% !important;
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+.nmsfunneldoctor_formblock {
+    padding: 10px 10px 30px;
+    border: 5px solid #2640de;
+}
+.nmsfunneldoctor_formblock h2 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    font-family: 'RalewaySemiBold';
+    font-size: 24px;
+    line-height: 26px;
+    background-color: #1c75bc;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.nmsfunneldoctor_formblock h3 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    font-family: 'RalewaySemiBold';
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    background: -moz-linear-gradient(270deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(4,169,188,1)), color-stop(100%, rgba(2,52,102,1)));
+    background: -webkit-linear-gradient(270deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -o-linear-gradient(270deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: -ms-linear-gradient(270deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    background: linear-gradient(180deg, rgba(4,169,188,1) 0%, rgba(2,52,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04a9bc', endColorstr='#023466',GradientType=0 );
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nmsfunneldoctor_formblock h1 {
+    padding: 16px 0px;
+    margin: 0;
+    color: #4f4d74;
+    font-family: 'RalewaySemiBold';
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#adddocform {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.nmsfunneldoctor_formblock .form-group {
+    position: relative;
+}
+.nmsfunneldoctor_formblock .form-group .palceholder {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    display: none;
+}
+.nmsfunneldoctor_formblock .form-group input[type="text"] {
+    height: 35px;
+    border: 1px solid #a2b7bf;
+    border-radius: 0px;
+}
+.bmd-help {
+    color: #ff0000;
+    display: none;
+} */
