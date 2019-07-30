@@ -10,7 +10,7 @@ import { from } from 'rxjs';
 export class NmsFunnelDoctorsComponent implements OnInit {
   nmsfunnelUrl: SafeResourceUrl;
   constructor( private sanitizer: DomSanitizer) {
-    this.nmsfunnelUrl = this.sanitizer.bypassSecurityTrustResourceUrl("DomSanitizer");
+    this.nmsfunnelUrl = this.sanitizer.bypassSecurityTrustResourceUrl("https://nexmedsolutions.net/nms-funnel-doctors");
   }
 
   ngOnInit() {
