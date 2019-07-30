@@ -5912,6 +5912,17 @@ width: 320px;  }
 }
 
 @media(max-width:1260px) {
+  .toprightbg .top_rightpart .lefttext2 {
+    right: 0;
+    position: inherit;
+    top: 0;
+}
+.toprightbg .top_rightpart .lefttext1 {
+  right: 0;
+  position: inherit;
+  top: 0;
+  margin-bottom: 0;
+}
     .block10_textwrapper h2{
         background: none;
     }
@@ -7337,7 +7348,7 @@ width: 320px;  }
         display: block;
         text-align: center;
         padding: 5px;
-        font-size: 20px;
+        font-size: 0px;
         margin: 0;
     }
 
@@ -7447,7 +7458,7 @@ width: 320px;  }
         display: block;
         text-align: center;
         padding: 5px;
-        font-size: 20px;
+        font-size: 30px;
         margin: 0;
     }
 
