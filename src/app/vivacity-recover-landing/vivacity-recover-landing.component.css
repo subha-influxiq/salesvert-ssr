@@ -4703,7 +4703,11 @@
 }
 
 @media(max-width:600px) {
-
+    .rl_block1_procon .recover_top_img14 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     #exitmodal .modal-body h2 {
         font-size: 28px;
         padding: 22px 56px 22px 0px;

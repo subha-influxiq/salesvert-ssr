@@ -5860,7 +5860,7 @@ width: 320px;  }
         right: inherit !important;
         bottom: inherit !important;
     }
-    .AFF_topblock{ width: 90%!important; height: auto!important; background-image: none;
+    .AFF_topblock{ width: 95%!important; height: auto!important; background-image: none; overflow: hidden;
         background: rgba(155,181,106,1);
         background: -moz-linear-gradient(left, rgba(155,181,106,1) 0%, rgba(185,215,151,1) 100%);
         background: -webkit-gradient(left top, right top, color-stop(0%, rgba(155,181,106,1)), color-stop(100%, rgba(185,215,151,1)));
@@ -5930,7 +5930,7 @@ width: 320px;  }
         bottom: 0 !important;
         margin: 0 auto;
     }
-    .topleft_arrow_text{ background-image: none; width: 100%; margin: 0 auto; height: auto; margin-top: -9%; position: inherit;
+    .topleft_arrow_text{ background-image: none; width: 98%; margin: 0 auto; height: auto; margin-top: -9%; position: inherit;
         background: rgba(248,164,28,1);
         background: -moz-linear-gradient(top, rgba(248,164,28,1) 0%, rgba(254,74,3,1) 100%);
         background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,164,28,1)), color-stop(100%, rgba(254,74,3,1)));
@@ -5990,7 +5990,7 @@ width: 320px;  }
     .block2_textcon {
         float: none;
         margin: 0px;
-        width: 100%; text-align: center; padding:30px 20px 0 20px!important;
+        width: 94%; text-align: center; padding:30px 21px 0 21px!important;
     }
 
 
@@ -6148,6 +6148,7 @@ width: 320px;  }
         margin: 25px auto 0;
         position: inherit;
         top: 0;
+        margin-left: 35%;
     }
 
     .block5btn{display: block;
@@ -6605,6 +6606,27 @@ width: 320px;  }
 }
 
 @media(max-width:1199px) {
+    .rl_block2_top_wrapper .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rl_wrapper_top_right_inner h4 {
+        float: none;
+        color: #522f16 !important;
+        font-family: 'RalewayBold';
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0 auto 25px;
+        font-weight: 700;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .rl_block2_top p {
+        text-align: center;
+    }
+
+    
     .r1b6img3 {
         width: auto;
         max-width: 100%;
@@ -7119,6 +7141,9 @@ width: 320px;  }
 }
 
 @media(max-width:767px) {
+    .toptext1 {
+        width: 97%;
+    }
     .affblock9wrapper .affblock9_heading h2 {
         font-size: 27px;
         padding: 25px 15px 0;
