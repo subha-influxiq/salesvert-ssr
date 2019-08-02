@@ -38,7 +38,7 @@ const appRoutes: Routes = [
     { path: 'platform-features', component: PlatformFeaturesComponent},
     { path: 'ourteam', component: OurteamComponent},
     { path: 'contactus', component: ContactusComponent},
-    { path: 'funnel', component: FunnelComponent},  
+    { path: 'funnel-examples', component: FunnelComponent},  
     { path: 'readmore',  component: ReadmoreComponent},
     { path: 'aspire-payment-suite',  component: AspirePaymentSuiteComponent},
     { path: 'signupforblockchain', component: SignupforblockchainComponent},
