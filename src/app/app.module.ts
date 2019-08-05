@@ -7,6 +7,7 @@ import { MetaModule } from '@ngx-meta/core';
 import { DemoMaterialModule} from '../app/material-module';
 import { HttpClientModule } from '@angular/common/http';
 //import { ModalModule } from 'ngx-bootstrap/modal';
+import {ModalModule} from 'ngx-bootstrap/modal';
 
 
 /* Page component */
@@ -16,10 +17,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReactiveFormsModule, FormsModule} from '@angular/forms';
-import { PlatformFeaturesComponent } from './platform-features/platform-features.component';
+import { PlatformFeaturesComponent, DialogOverviewExampleDialog } from './platform-features/platform-features.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 import { ContactusComponent } from './contactus/contactus.component'; 
-import { FunnelComponent, DialogDataExampleDialog} from './funnel/funnel.component'
+import { FunnelComponent} from './funnel/funnel.component'
 import { RouterModule } from '@angular/router';
 import { ReadmoreComponent } from './readmore/readmore.component';
 import { AspirePaymentSuiteComponent } from './aspire-payment-suite/aspire-payment-suite.component';
@@ -46,7 +47,8 @@ import { CobrazolLandingComponent } from './cobrazol-landing/cobrazol-landing.co
     PlatformFeaturesComponent,
     OurteamComponent,
     ContactusComponent,
-    DialogDataExampleDialog, 
+    // DialogDataExampleDialog,
+    DialogOverviewExampleDialog,
     AspirePaymentSuiteComponent, 
     SignupforblockchainComponent,
     NexgentestingComponent,
@@ -72,10 +74,11 @@ import { CobrazolLandingComponent } from './cobrazol-landing/cobrazol-landing.co
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
+    ModalModule.forRoot(),
     //ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents:[DialogDataExampleDialog]
+  entryComponents:[DialogOverviewExampleDialog, PlatformFeaturesComponent]
 })
 export class AppModule { }

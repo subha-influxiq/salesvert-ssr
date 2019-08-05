@@ -1093,6 +1093,33 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 .top_menu input[type=checkbox]:checked ~ .mainmenu{
     display: block;
 }
+.as_funnelblk1 .fn_inner_wrapper .img_wrapper{cursor: zoom-in;}
+
+.modal {position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Responsive Styles*/
